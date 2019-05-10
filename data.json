@@ -4,9 +4,35 @@
     "provider": "Baidu Inc",
     "time": 2018,
     "location": [
-      {"city": null, "country": "ch"}
+      {"country": "ch"}
     ],
-    "url": "https://site.com",
-    "volume": "100000"
-  }
+    "data": [
+      {
+        "video": null,
+        "lidar": null,
+        "vehicle-data": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "ApolloScape",
+    "provider": "Baidu Inc",
+    "time": 2018,
+    "location": [
+      {"country": "ch"}
+    ],
+    "data": [
+      {
+        "video": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "url": "https://site.com"
+  },
 ]

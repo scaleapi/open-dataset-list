@@ -4,7 +4,7 @@
     "provider": "Baidu Inc",
     "time": 2018,
     "location": [
-      {"country": "ch"}
+      {"country": "cn"}
     ],
     "data": [
       {
@@ -23,7 +23,7 @@
     "provider": "Baidu Inc",
     "time": 2018,
     "location": [
-      {"country": "ch"}
+      {"country": "cn"}
     ],
     "data": [
       {
@@ -87,6 +87,103 @@
       "illumination"
     ],
     "volume": "100000",
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "Bosch Small Traffic Lights",
+    "provider": "Bosch North America Research",
+    "time": 2018,
+    "location": [
+      {"country": "us", "city": "San Francisco"}
+    ],
+    "data": [
+      {
+        "video": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "urban",
+      "rural"
+    ],
+    "diversity": [
+      "weather",
+      "illumination"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "Brain4Cars",
+    "provider": "Cornell Univ.",
+    "time": 2016,
+    "location": [
+      {"country": "us"}
+    ],
+    "data": [
+      {
+        "video": 700000,
+        "gps": null,
+        "vehicle-data": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Behavioral Label"
+    ],
+    "traffic": [
+      "urban",
+      "highway"
+    ],
+    "diversity": [
+      "illumination"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "Caltech Pedestrian",
+    "provider": "California Institute of Technology",
+    "time": 2009,
+    "location": [
+      {"country": "us", "city": "Los Angeles"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "volume": 250000,
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "CamVid",
+    "provider": "University of Cambridge",
+    "time": 2009,
+    "location": [
+      {"country": "uk", "city": "Cambridge"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "image": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Semantic Label"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "volume": 700000,
     "url": "https://site.com"
   },
 ]

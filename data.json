@@ -35,4 +35,58 @@
     ],
     "url": "https://site.com"
   },
+  {
+    "dataset": "Belgium Traffic Sign",
+    "provider": "ETH Zurich",
+    "time": 2011,
+    "location": [
+      {"country": "be"}
+    ],
+    "data": [
+      {
+        "image": 9000
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "Berkeley DeepDrive",
+    "provider": "UC Berkeley",
+    "time": 2017,
+    "location": [
+      {"country": "us", "city": "San Francisco"},
+      {"country": "us", "city": "New York"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "image": null,
+        "gps": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box",
+      "Semantic Label",
+      "Lane Marking"
+    ],
+    "traffic": [
+      "urban",
+      "rural",
+      "highway"
+    ],
+    "diversity": [
+      "weather",
+      "night",
+      "illumination"
+    ],
+    "volume": "100000",
+    "url": "https://site.com"
+  },
 ]

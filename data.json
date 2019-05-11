@@ -762,5 +762,290 @@
     ],
     "website": "https://site.com"
   },
-
+  {
+    "dataset": "Mapillary Vistas",
+    "provider": ["Mapillary AB"],
+    "time": 2017,
+    "location": [
+      {"country": "ch", "city": ""}
+    ],
+    "data": [
+      {
+        "image": null
+      }
+    ],
+    "annotation": [
+      "Semantic Label"
+    ],
+    "traffic": [
+      "urban",
+      "rural"
+    ],
+    "diversity": [
+      "weather",
+      "season",
+      "night",
+      "illumination"
+    ],
+    "volume": 25000,
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "NEXET",
+    "provider": ["Nexar"],
+    "time": 2017,
+    "location": [
+      {"country": "ch", "city": ""}
+    ],
+    "data": [
+      {
+        "image": 55000,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "urban",
+      "rural",
+      "highway"
+    ],
+    "diversity": [
+      "weather",
+      "season",
+      "night",
+      "illumination"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "nuScenes",
+    "provider": ["nuTonomy Inc", "Aptiv"],
+    "time": 2018,
+    "location": [
+      {"country": "us", "city": "Boston"},
+      {"country": "sg"}
+    ],
+    "data": [
+      {
+        "video": 1000,
+        "image": 40000,
+        "lidar": null,
+        "gps": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box",
+      "Behavioral Label"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "weather",
+      "illumination"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "Oxford RobotCar",
+    "provider": ["Oxford Univ."],
+    "time": 2015,
+    "location": [
+      {"country": "uk", "city": "Central Oxford"}
+    ],
+    "data": [
+      {
+        "video": 130,
+        "lidar": null,
+        "gps": null,
+        "vehicle-data": null,
+        "codes": null
+      }
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "weather",
+      "season",
+      "illumination"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "Road Damage",
+    "provider": ["Univ. of Tokyo"],
+    "time": 2018,
+    "location": [
+      {"country": "jp"}
+    ],
+    "data": [
+      {
+        "image": 9000,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "weather"
+    ],
+    "volume": 200000,
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "Stanford Track",
+    "provider": ["Stanford Univ"],
+    "time": 2010,
+    "location": [
+      {"country": "us", "city": "Stanford Univ."}
+    ],
+    "data": [
+      {
+        "lidar": null,
+        "gps": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "stixel"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "Stixel",
+    "provider": ["Daimler AG"],
+    "time": 2013,
+    "location": [
+      {"country": "de"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "vehicle-data": null,
+      }
+    ],
+    "annotation": [
+      "stixel"
+    ],
+    "traffic": [
+      "highway"
+    ],
+    "diversity": [
+      "weather"
+    ],
+    "volume": 2500,
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "TME Motorway",
+    "provider": ["Czech Technical Univ."],
+    "time": 2011,
+    "location": [
+      {"country": "it", "city": "Northern"}
+    ],
+    "data": [
+      {
+        "video": 28,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "highway"
+    ],
+    "diversity": [
+      "illumination"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "TuSimple",
+    "provider": ["TuSimple"],
+    "time": 2017,
+    "location": [
+      {"country": "ch", "city": ""}
+    ],
+    "data": [
+      {
+        "video": null,
+        "image": 13000,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box",
+      "Lane Marking"
+    ],
+    "traffic": [
+      "highway"
+    ],
+    "diversity": [
+      "weather"
+    ],
+    "volume": 200000,
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "UAH",
+    "provider": ["University of Alcala"],
+    "time": 2016,
+    "location": [
+      {"country": "es", "city": "Madrid"}
+    ],
+    "data": [
+      {
+        "video": 35,
+        "gps": null,
+        "vehicle-data": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Behavioral Label"
+    ],
+    "traffic": [
+      "highway"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "Udacity",
+    "provider": ["Udacity"],
+    "time": 2016,
+    "location": [
+      {"country": "us", "city": "Mountain View"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "lidar": null,
+        "gps": null,
+        "vehicle-data": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "illumination"
+    ],
+    "website": "https://site.com"
+  }
 ]

@@ -465,5 +465,112 @@
     "volume": 200000,
     "website": "https://site.com"
   },
+  {
+    "dataset": "ETH Pedestrian",
+    "provider": ["ETH Zurich"],
+    "time": 2018,
+    "location": [
+      {"country": "ch", "city": "Zurich"}
+    ],
+    "data": [
+      {
+        "video": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "volume": 48000,
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "Ford",
+    "provider": ["Univ. of Michigan"],
+    "time": 2018,
+    "location": [
+      {"country": "ch", "city": ""}
+    ],
+    "data": [
+      {
+        "video": null,
+        "lidar": null,
+        "gps": null,
+        "codes": null
+      }
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "German Traffic Sign",
+    "provider": ["Ruhr Univ. Bochum"],
+    "time": 2012,
+    "location": [
+      {"country": "de"}
+    ],
+    "data": [
+      {
+        "image": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "volume": 5000,
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "Challenging Stereo",
+    "provider": ["HCI(Heidelberg)", "Bosch Corporation Research"],
+    "time": 2012,
+    "location": [
+      {"country": "de", "city": "Hildesheim"}
+    ],
+    "data": [
+      {
+        "video": 11
+      }
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "weather",
+      "night",
+      "illumination"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "HD1K",
+    "provider": ["HCI (Heidelberg), Robert Bosch GmbH"],
+    "time": 2018,
+    "location": [
+      {"country": "de", "city": "Heidelberg"}
+    ],
+    "data": [
+      {
+        "video": null
+      }
+    ],
+    "annotation": [
+      "Optical Flow"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "weather",
+      "night",
+      "illumination"
+    ],
+    "volume": 1000,
+    "website": "https://site.com"
+  },
 
 ]

@@ -572,5 +572,195 @@
     "volume": 1000,
     "website": "https://site.com"
   },
+  {
+    "dataset": "Highway Workzones",
+    "provider": ["Carnegie Mellon Univ"],
+    "time": 2015,
+    "location": [
+      {"country": "us"}
+    ],
+    "data": [
+      {
+        "video": 6
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "highway"
+    ],
+    "diversity": [
+      "weather",
+      "season",
+      "illumination"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "JAAD",
+    "provider": ["York University"],
+    "time": 2016,
+    "location": [
+      {"country": "ua"},
+      {"country": "ca"}
+    ],
+    "data": [
+      {
+        "video": 347
+      }
+    ],
+    "annotation": [
+      "Bounding Box",
+      "Behavioral Label"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "weather",
+      "night",
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "KAIST Multi-Spectralm",
+    "provider": ["KAIST"],
+    "time": 2015,
+    "location": [
+      {"country": "kr"}
+    ],
+    "data": [
+      {
+        "video": 10,
+        "lidar": null,
+        "gps": null,
+        "thermal": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "night",
+      "illumination"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "KAIST Urban",
+    "provider": ["KAIST"],
+    "time": 2018,
+    "location": [
+      {"country": "kr"}
+    ],
+    "data": [
+      {
+        "video": 19,
+        "lidar": null,
+        "gps": null,
+        "codes": null
+      }
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "KITTI",
+    "provider": ["Karlsruhe Inst of Technology", "Toyota Technological Inst"],
+    "time": 2011,
+    "location": [
+      {"country": "de", "city": "Karlsruhe"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "image": null,
+        "lidar": null,
+        "gps": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box",
+      "Semantic Label",
+      "Lane Marking"
+    ],
+    "traffic": [
+      "urban",
+      "rural",
+      "highway"
+    ],
+    "diversity": [
+      "illumination"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "LISA Traffic Sign",
+    "provider": ["Univ. of California", "San Diego"],
+    "time": 2012,
+    "location": [
+      {"country": "us"}
+    ],
+    "data": [
+      {
+        "image": 6600,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "LostAndFound",
+    "provider": ["Daimler AG"],
+    "time": 2016,
+    "location": [
+      {"country": "de"}
+    ],
+    "data": [
+      {
+        "image": 2000,
+        "vehicle-data": null
+      }
+    ],
+    "annotation": [
+      "Semantic Label"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "volume": 200000,
+    "website": "https://site.com"
+  },
+  {
+    "dataset": "Malaga",
+    "provider": ["Univ. of Malaga"],
+    "time": 2018,
+    "location": [
+      {"country": "es", "city": "Malaga"}
+    ],
+    "data": [
+      {
+        "video": 15,
+        "lidar": null,
+        "gps": null,
+        "codes": null
+      }
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "website": "https://site.com"
+  },
 
 ]

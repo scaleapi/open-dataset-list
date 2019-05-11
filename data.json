@@ -186,4 +186,202 @@
     "volume": 700000,
     "url": "https://site.com"
   },
+  {
+    "dataset": "CityScapes",
+    "provider": "Daimler AG,MPI-IS,TU Darmstadt",
+    "time": 2016,
+    "location": [
+      {"country": "de"},
+      {"country": "ch"},
+      {"country": "fr"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "image": null,
+        "gps": null,
+        "vehicle-data": null,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Semantic Label"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "season"
+    ],
+    "volume": 25000,
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "CMU",
+    "provider": "Carnegie Mellon University",
+    "time": 2011,
+    "location": [
+      {"country": "us", "city": "Pittsburgh"}
+    ],
+    "data": [
+      {
+        "video": 16000,
+        "lidar": null,
+        "gps": null
+      }
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "weather",
+      "season",
+      "illumination"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "Comma.ai",
+    "provider": "comma.ai",
+    "time": 2016,
+    "location": [
+      {"country": "us", "city": "San Francisco"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "lidar": null,
+        "gps": null,
+        "vehicle-data": null,
+        "codes": null
+      }
+    ],
+    "traffic": [
+      "highway"
+    ],
+    "diversity": [
+      "night"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "CULane",
+    "provider": "The Chinese University of Hong Kong",
+    "time": 2018,
+    "location": [
+      {"country": "cn", "city": "Beijing"}
+    ],
+    "data": [
+      {
+        "image": 133000,
+        "codes": null
+      }
+    ],
+    "annotation": [
+      "Lane Marking"
+    ],
+    "traffic": [
+      "urban",
+      "rural",
+      "highway"
+    ],
+    "diversity": [
+      "night",
+      "illumination"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "Daimler Pedestrian",
+    "provider": ["Daimler AG R&D", "Univ. of Amsterdam"],
+    "time": 2016,
+    "location": [
+      {"country": "cn", "city": "Beijing"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "image": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box",
+      "Semantic Label"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "DAVIS",
+    "provider": ["Univ. of Zurich", "ETH Zurich"],
+    "time": 2018,
+    "location": [
+      {"country": "ch"},
+      {"country": "de"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "gps": null,
+        "vehicle-data": null,
+        "codes": null
+      }
+    ],
+    "traffic": [
+      "highway"
+    ],
+    "diversity": [
+      "night"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "DBNet",
+    "provider": ["Shanghai Jiao Tong Univ", "Xiamen Univ"],
+    "time": 2018,
+    "location": [
+      {"country": "ch"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "lidar": null,
+        "vehicle-data": null
+      }
+    ],
+    "traffic": [
+      "urban",
+      "rural",
+      "highway"
+    ],
+    "volume": 17000,
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "DIPLECS",
+    "provider": ["Univ. of Surrey"],
+    "time": 2015,
+    "location": [
+      {"country": "uk", "city": "Surrey"},
+      {"country": "se", "city": "Stockholm"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "vehicle-data": null
+      }
+    ],
+    "annotation": [
+      "Behavioral Label"
+    ],
+    "traffic": [
+      "urban",
+      "rural",
+      "highway"
+    ],
+    "url": "https://site.com"
+  },
+
 ]

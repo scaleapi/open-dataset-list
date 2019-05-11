@@ -16,7 +16,7 @@
     "annotation": [
       "Bounding Box"
     ],
-    "url": "https://site.com"
+    "website": "http://data.apollo.auto/ "
   },
   {
     "dataset": "ApolloScape",
@@ -33,7 +33,7 @@
     "annotation": [
       "Bounding Box"
     ],
-    "url": "https://site.com"
+    "website": "http://apolloscape.auto/scene.html "
   },
   {
     "dataset": "Belgium Traffic Sign",
@@ -53,7 +53,7 @@
     "traffic": [
       "urban"
     ],
-    "url": "https://site.com"
+    "website": "http://www.vision.ee.ethz.ch/~timofter/traffic_signs/ "
   },
   {
     "dataset": "Berkeley DeepDrive",
@@ -87,7 +87,7 @@
       "illumination"
     ],
     "volume": "100000",
-    "url": "https://site.com"
+    "website": "http://bdd-data.berkeley.edu/ "
   },
   {
     "dataset": "Bosch Small Traffic Lights",
@@ -112,7 +112,7 @@
       "weather",
       "illumination"
     ],
-    "url": "https://site.com"
+    "website": "https://hci.iwr.uni-heidelberg.de/node/6132 "
   },
   {
     "dataset": "Brain4Cars",
@@ -139,7 +139,7 @@
     "diversity": [
       "illumination"
     ],
-    "url": "https://site.com"
+    "website": "http://brain4cars.com/"
   },
   {
     "dataset": "Caltech Pedestrian",
@@ -161,7 +161,7 @@
       "urban"
     ],
     "volume": 250000,
-    "url": "https://site.com"
+    "website": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/"
   },
   {
     "dataset": "CamVid",
@@ -184,7 +184,7 @@
       "urban"
     ],
     "volume": 700000,
-    "url": "https://site.com"
+    "website": "http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/"
   },
   {
     "dataset": "CityScapes",
@@ -214,7 +214,7 @@
       "season"
     ],
     "volume": 25000,
-    "url": "https://site.com"
+    "website": "https://www.cityscapes-dataset.com/"
   },
   {
     "dataset": "CMU",
@@ -238,7 +238,7 @@
       "season",
       "illumination"
     ],
-    "url": "https://site.com"
+    "website": "http://3dvis.ri.cmu.edu/data-sets/localization/"
   },
   {
     "dataset": "Comma.ai",
@@ -262,7 +262,7 @@
     "diversity": [
       "night"
     ],
-    "url": "https://site.com"
+    "website": "http://research.comma.ai/"
   },
   {
     "dataset": "CULane",
@@ -289,7 +289,7 @@
       "night",
       "illumination"
     ],
-    "url": "https://site.com"
+    "website": "https://xingangpan.github.io/projects/CULane.html"
   },
   {
     "dataset": "Daimler Pedestrian",
@@ -311,7 +311,7 @@
     "traffic": [
       "urban"
     ],
-    "url": "https://site.com"
+    "website": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html"
   },
   {
     "dataset": "DAVIS",
@@ -335,7 +335,7 @@
     "diversity": [
       "night"
     ],
-    "url": "https://site.com"
+    "website": "https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub"
   },
   {
     "dataset": "DBNet",
@@ -357,7 +357,7 @@
       "highway"
     ],
     "volume": 17000,
-    "url": "https://site.com"
+    "website": "http://www.dbehavior.net/"
   },
   {
     "dataset": "DIPLECS",
@@ -381,7 +381,7 @@
       "rural",
       "highway"
     ],
-    "url": "https://site.com"
+    "website": "http://cvssp.org/data/diplecs/"
   },
   {
     "dataset": "Dr(eye)ve",
@@ -409,7 +409,7 @@
       "night"
     ],
     "volume": 555000,
-    "url": "https://site.com"
+    "website": "http://imagelab.ing.unimore.it/dreyeve"
   },
   {
     "dataset": "EISATS",
@@ -438,7 +438,7 @@
       "night",
       "illumination"
     ],
-    "url": "https://site.com"
+    "website": "https://ccv.wordpress.fos.auckland.ac.nz/eisats/"
   },
   {
     "dataset": "Elektra",
@@ -463,7 +463,7 @@
       "night"
     ],
     "volume": 200000,
-    "website": "https://site.com"
+    "website": "http://adas.cvc.uab.es/elektra/datasets/"
   },
   {
     "dataset": "ETH Pedestrian",
@@ -484,7 +484,7 @@
       "urban"
     ],
     "volume": 48000,
-    "website": "https://site.com"
+    "website": "https://data.vision.ee.ethz.ch/cvl/aess/dataset/"
   },
   {
     "dataset": "Ford",
@@ -504,7 +504,7 @@
     "traffic": [
       "urban"
     ],
-    "website": "https://site.com"
+    "website": "http://robots.engin.umich.edu/SoftwareData/Ford"
   },
   {
     "dataset": "German Traffic Sign",
@@ -515,14 +515,13 @@
     ],
     "data": [
       {
-        "image": null
+        "image": 5000
       }
     ],
     "annotation": [
       "Bounding Box"
     ],
-    "volume": 5000,
-    "website": "https://site.com"
+    "website": "http://benchmark.ini.rub.de"
   },
   {
     "dataset": "Challenging Stereo",
@@ -544,7 +543,7 @@
       "night",
       "illumination"
     ],
-    "website": "https://site.com"
+    "website": "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow"
   },
   {
     "dataset": "HD1K",

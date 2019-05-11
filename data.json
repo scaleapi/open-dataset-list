@@ -1,7 +1,7 @@
 [
   {
     "dataset": "Apollo Open Transform",
-    "provider": "Baidu Inc",
+    "provider": ["Baidu Inc"],
     "time": 2018,
     "location": [
       {"country": "cn"}
@@ -20,7 +20,7 @@
   },
   {
     "dataset": "ApolloScape",
-    "provider": "Baidu Inc",
+    "provider": ["Baidu Inc"],
     "time": 2018,
     "location": [
       {"country": "cn"}
@@ -37,7 +37,7 @@
   },
   {
     "dataset": "Belgium Traffic Sign",
-    "provider": "ETH Zurich",
+    "provider": ["ETH Zurich"],
     "time": 2011,
     "location": [
       {"country": "be"}
@@ -57,7 +57,7 @@
   },
   {
     "dataset": "Berkeley DeepDrive",
-    "provider": "UC Berkeley",
+    "provider": ["UC Berkeley"],
     "time": 2017,
     "location": [
       {"country": "us", "city": "San Francisco"},
@@ -91,7 +91,7 @@
   },
   {
     "dataset": "Bosch Small Traffic Lights",
-    "provider": "Bosch North America Research",
+    "provider": ["Bosch North America Research"],
     "time": 2018,
     "location": [
       {"country": "us", "city": "San Francisco"}
@@ -116,7 +116,7 @@
   },
   {
     "dataset": "Brain4Cars",
-    "provider": "Cornell Univ.",
+    "provider": ["Cornell Univ."],
     "time": 2016,
     "location": [
       {"country": "us"}
@@ -143,7 +143,7 @@
   },
   {
     "dataset": "Caltech Pedestrian",
-    "provider": "California Institute of Technology",
+    "provider": ["California Institute of Technology"],
     "time": 2009,
     "location": [
       {"country": "us", "city": "Los Angeles"}
@@ -165,7 +165,7 @@
   },
   {
     "dataset": "CamVid",
-    "provider": "University of Cambridge",
+    "provider": ["University of Cambridge"],
     "time": 2009,
     "location": [
       {"country": "uk", "city": "Cambridge"}
@@ -188,7 +188,7 @@
   },
   {
     "dataset": "CityScapes",
-    "provider": "Daimler AG,MPI-IS,TU Darmstadt",
+    "provider": ["Daimler AG", "MPI-IS", "TU Darmstadt"],
     "time": 2016,
     "location": [
       {"country": "de"},
@@ -218,7 +218,7 @@
   },
   {
     "dataset": "CMU",
-    "provider": "Carnegie Mellon University",
+    "provider": ["Carnegie Mellon University"],
     "time": 2011,
     "location": [
       {"country": "us", "city": "Pittsburgh"}
@@ -242,7 +242,7 @@
   },
   {
     "dataset": "Comma.ai",
-    "provider": "comma.ai",
+    "provider": ["comma.ai"],
     "time": 2016,
     "location": [
       {"country": "us", "city": "San Francisco"}
@@ -266,7 +266,7 @@
   },
   {
     "dataset": "CULane",
-    "provider": "The Chinese University of Hong Kong",
+    "provider": ["The Chinese University of Hong Kong"],
     "time": 2018,
     "location": [
       {"country": "cn", "city": "Beijing"}

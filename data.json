@@ -569,7 +569,7 @@
       "illumination"
     ],
     "volume": 1000,
-    "website": "https://site.com"
+    "website": "http://hci-benchmark.org/"
   },
   {
     "dataset": "Highway Workzones",
@@ -594,7 +594,7 @@
       "season",
       "illumination"
     ],
-    "website": "https://site.com"
+    "website": "http://www.andrew.cmu.edu/user/jonghole/workzone/data/"
   },
   {
     "dataset": "JAAD",
@@ -620,7 +620,7 @@
       "weather",
       "night",
     ],
-    "website": "https://site.com"
+    "website": "http://data.nvision2.eecs.yorku.ca/JAAD_dataset/"
   },
   {
     "dataset": "KAIST Multi-Spectralm",
@@ -648,7 +648,7 @@
       "night",
       "illumination"
     ],
-    "website": "https://site.com"
+    "website": "https://sites.google.com/view/multispectral/"
   },
   {
     "dataset": "KAIST Urban",
@@ -668,7 +668,7 @@
     "traffic": [
       "urban"
     ],
-    "website": "https://site.com"
+    "website": "http://irap.kaist.ac.kr/dataset/"
   },
   {
     "dataset": "KITTI",
@@ -699,7 +699,7 @@
     "diversity": [
       "illumination"
     ],
-    "website": "https://site.com"
+    "website": "http://www.cvlibs.net/datasets/kitti/"
   },
   {
     "dataset": "LISA Traffic Sign",
@@ -717,7 +717,7 @@
     "annotation": [
       "Bounding Box"
     ],
-    "website": "https://site.com"
+    "website": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html"
   },
   {
     "dataset": "LostAndFound",
@@ -739,7 +739,7 @@
       "urban"
     ],
     "volume": 200000,
-    "website": "https://site.com"
+    "website": "http://www.6d-vision.com/lostandfounddataset"
   },
   {
     "dataset": "Malaga",
@@ -759,7 +759,7 @@
     "traffic": [
       "urban"
     ],
-    "website": "https://site.com"
+    "website": "https://www.mrpt.org/MalagaUrbanDataset"
   },
   {
     "dataset": "Mapillary Vistas",
@@ -770,7 +770,7 @@
     ],
     "data": [
       {
-        "image": null
+        "image": 25000
       }
     ],
     "annotation": [
@@ -786,8 +786,7 @@
       "night",
       "illumination"
     ],
-    "volume": 25000,
-    "website": "https://site.com"
+    "website": "https://www.mapillary.com/dataset/vistas"
   },
   {
     "dataset": "NEXET",
@@ -816,7 +815,7 @@
       "night",
       "illumination"
     ],
-    "website": "https://site.com"
+    "website": "https://www.getnexar.com/challenge-2/"
   },
   {
     "dataset": "nuScenes",
@@ -846,7 +845,7 @@
       "weather",
       "illumination"
     ],
-    "website": "https://site.com"
+    "website": "https://www.nuscenes.org/"
   },
   {
     "dataset": "Oxford RobotCar",
@@ -872,7 +871,7 @@
       "season",
       "illumination"
     ],
-    "website": "https://site.com"
+    "website": "http://robotcar-dataset.robots.ox.ac.uk/ "
   },
   {
     "dataset": "Road Damage",
@@ -897,7 +896,7 @@
       "weather"
     ],
     "volume": 200000,
-    "website": "https://site.com"
+    "website": "https://bdc2018.mycityreport.net/data/"
   },
   {
     "dataset": "Stanford Track",
@@ -919,7 +918,7 @@
     "traffic": [
       "urban"
     ],
-    "website": "https://site.com"
+    "website": "https://cs.stanford.edu/people/teichman/stc/"
   },
   {
     "dataset": "Stixel",
@@ -944,7 +943,7 @@
       "weather"
     ],
     "volume": 2500,
-    "website": "https://site.com"
+    "website": "http://www.6d-vision.com/ground-truth-stixel-dataset"
   },
   {
     "dataset": "TME Motorway",
@@ -968,15 +967,12 @@
     "diversity": [
       "illumination"
     ],
-    "website": "https://site.com"
+    "website": "http://cmp.felk.cvut.cz/data/motorway/ "
   },
   {
     "dataset": "TuSimple",
     "provider": ["TuSimple"],
     "time": 2017,
-    "location": [
-      {"country": "ch", "city": ""}
-    ],
     "data": [
       {
         "video": null,
@@ -994,8 +990,7 @@
     "diversity": [
       "weather"
     ],
-    "volume": 200000,
-    "website": "https://site.com"
+    "website": "https://github.com/TuSimple/tusimple-benchmark/wiki "
   },
   {
     "dataset": "UAH",
@@ -1018,7 +1013,7 @@
     "traffic": [
       "highway"
     ],
-    "website": "https://site.com"
+    "website": "http://www.robesafe.uah.es/personal/eduardo.romera/uah-driveset/"
   },
   {
     "dataset": "Udacity",
@@ -1045,6 +1040,6 @@
     "diversity": [
       "illumination"
     ],
-    "website": "https://site.com"
+    "website": "https://github.com/udacity/self-driving-car"
   }
 ]

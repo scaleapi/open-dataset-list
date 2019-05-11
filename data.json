@@ -383,5 +383,87 @@
     ],
     "url": "https://site.com"
   },
+  {
+    "dataset": "Dr(eye)ve",
+    "provider": ["Univ. of Modena", "Reggio Emilia"],
+    "time": 2016,
+    "location": [
+      {"country": "it", "city": "Modena"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "vehicle-data": null
+      }
+    ],
+    "annotation": [
+      "Behavioral Label"
+    ],
+    "traffic": [
+      "urban",
+      "rural",
+      "highway"
+    ],
+    "diversity": [
+      "weather",
+      "night"
+    ],
+    "volume": 555000,
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "EISATS",
+    "provider": ["Univ. of Auckland"],
+    "time": 2010,
+    "location": [
+      {"country": "de"},
+      {"country": "nz"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "lidar": null
+      }
+    ],
+    "annotation": [
+      "Behavioral Label"
+    ],
+    "traffic": [
+      "urban",
+      "rural",
+      "highway"
+    ],
+    "diversity": [
+      "weather",
+      "night",
+      "illumination"
+    ],
+    "url": "https://site.com"
+  },
+  {
+    "dataset": "Elektra",
+    "provider": ["Autonomous Univ. of Barcelona", "Polytechnic Univ. of Catalonia"],
+    "time": 2016,
+    "location": [
+      {"country": "sp", "city": "Barcelona"}
+    ],
+    "data": [
+      {
+        "video": null,
+        "infrared": null
+      }
+    ],
+    "annotation": [
+      "Bounding Box"
+    ],
+    "traffic": [
+      "urban"
+    ],
+    "diversity": [
+      "night"
+    ],
+    "volume": 200000,
+    "website": "https://site.com"
+  },
 
 ]

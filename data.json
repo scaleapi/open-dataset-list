@@ -618,7 +618,7 @@
     ],
     "diversity": [
       "weather",
-      "night",
+      "night"
     ],
     "website": "http://data.nvision2.eecs.yorku.ca/JAAD_dataset/"
   },
@@ -930,7 +930,7 @@
     "data": [
       {
         "video": null,
-        "vehicle-data": null,
+        "vehicle-data": null
       }
     ],
     "annotation": [

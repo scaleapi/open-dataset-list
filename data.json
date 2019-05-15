@@ -845,7 +845,7 @@
       "weather",
       "illumination"
     ],
-    "website": "https://www.nuscenes.org/"
+    "website": "https://www.scale.ai/open-datasets/nuscenes"
   },
   {
     "dataset": "Oxford RobotCar",

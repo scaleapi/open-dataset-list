@@ -8,9 +8,9 @@
     ],
     "data": [
       {
-        "video": null,
-        "lidar": null,
-        "vehicle-data": null
+        "video": 0,
+        "lidar": 0,
+        "vehicle-data": 0
       }
     ],
     "annotation": [
@@ -27,7 +27,7 @@
     ],
     "data": [
       {
-        "video": null
+        "video": 0
       }
     ],
     "annotation": [
@@ -65,7 +65,7 @@
     ],
     "data": [
       {
-        "video": null,
+        "video": 0,
         "image": null,
         "gps": null,
         "codes": null
@@ -98,7 +98,7 @@
     ],
     "data": [
       {
-        "video": null
+        "video": 0
       }
     ],
     "annotation": [
@@ -125,7 +125,7 @@
       {
         "video": 700000,
         "gps": null,
-        "vehicle-data": null,
+        "vehicle-data": 0,
         "codes": null
       }
     ],
@@ -150,7 +150,7 @@
     ],
     "data": [
       {
-        "video": null,
+        "video": 0,
         "codes": null
       }
     ],
@@ -172,7 +172,7 @@
     ],
     "data": [
       {
-        "video": null,
+        "video": 0,
         "image": null,
         "codes": null
       }
@@ -197,10 +197,10 @@
     ],
     "data": [
       {
-        "video": null,
+        "video": 0,
         "image": null,
         "gps": null,
-        "vehicle-data": null,
+        "vehicle-data": 0,
         "codes": null
       }
     ],
@@ -226,7 +226,7 @@
     "data": [
       {
         "video": 16000,
-        "lidar": null,
+        "lidar": 0,
         "gps": null
       }
     ],
@@ -249,10 +249,10 @@
     ],
     "data": [
       {
-        "video": null,
-        "lidar": null,
+        "video": 0,
+        "lidar": 0,
         "gps": null,
-        "vehicle-data": null,
+        "vehicle-data": 0,
         "codes": null
       }
     ],
@@ -300,7 +300,7 @@
     ],
     "data": [
       {
-        "video": null,
+        "video": 0,
         "image": null
       }
     ],
@@ -323,9 +323,9 @@
     ],
     "data": [
       {
-        "video": null,
+        "video": 0,
         "gps": null,
-        "vehicle-data": null,
+        "vehicle-data": 0,
         "codes": null
       }
     ],
@@ -346,9 +346,9 @@
     ],
     "data": [
       {
-        "video": null,
-        "lidar": null,
-        "vehicle-data": null
+        "video": 0,
+        "lidar": 0,
+        "vehicle-data": 0
       }
     ],
     "traffic": [
@@ -369,8 +369,8 @@
     ],
     "data": [
       {
-        "video": null,
-        "vehicle-data": null
+        "video": 0,
+        "vehicle-data": 0
       }
     ],
     "annotation": [
@@ -392,8 +392,8 @@
     ],
     "data": [
       {
-        "video": null,
-        "vehicle-data": null
+        "video": 0,
+        "vehicle-data": 0
       }
     ],
     "annotation": [
@@ -421,7 +421,7 @@
     ],
     "data": [
       {
-        "video": null,
+        "video": 0,
         "lidar": null
       }
     ],
@@ -449,7 +449,7 @@
     ],
     "data": [
       {
-        "video": null,
+        "video": 0,
         "infrared": null
       }
     ],
@@ -474,7 +474,7 @@
     ],
     "data": [
       {
-        "video": null
+        "video": 0
       }
     ],
     "annotation": [
@@ -495,8 +495,8 @@
     ],
     "data": [
       {
-        "video": null,
-        "lidar": null,
+        "video": 0,
+        "lidar": 0,
         "gps": null,
         "codes": null
       }
@@ -554,7 +554,7 @@
     ],
     "data": [
       {
-        "video": null
+        "video": 0
       }
     ],
     "annotation": [
@@ -632,7 +632,7 @@
     "data": [
       {
         "video": 10,
-        "lidar": null,
+        "lidar": 0,
         "gps": null,
         "thermal": null,
         "codes": null
@@ -660,7 +660,7 @@
     "data": [
       {
         "video": 19,
-        "lidar": null,
+        "lidar": 0,
         "gps": null,
         "codes": null
       }
@@ -679,9 +679,9 @@
     ],
     "data": [
       {
-        "video": null,
+        "video": 0,
         "image": null,
-        "lidar": null,
+        "lidar": 0,
         "gps": null,
         "codes": null
       }
@@ -729,7 +729,7 @@
     "data": [
       {
         "image": 2000,
-        "vehicle-data": null
+        "vehicle-data": 0
       }
     ],
     "annotation": [
@@ -751,7 +751,7 @@
     "data": [
       {
         "video": 15,
-        "lidar": null,
+        "lidar": 0,
         "gps": null,
         "codes": null
       }
@@ -829,7 +829,7 @@
       {
         "video": 1000,
         "image": 40000,
-        "lidar": null,
+        "lidar": 0,
         "gps": null,
         "codes": null
       }
@@ -857,9 +857,9 @@
     "data": [
       {
         "video": 130,
-        "lidar": null,
+        "lidar": 0,
         "gps": null,
-        "vehicle-data": null,
+        "vehicle-data": 0,
         "codes": null
       }
     ],
@@ -907,7 +907,7 @@
     ],
     "data": [
       {
-        "lidar": null,
+        "lidar": 0,
         "gps": null,
         "codes": null
       }
@@ -929,8 +929,8 @@
     ],
     "data": [
       {
-        "video": null,
-        "vehicle-data": null
+        "video": 0,
+        "vehicle-data": 0
       }
     ],
     "annotation": [
@@ -975,7 +975,7 @@
     "time": 2017,
     "data": [
       {
-        "video": null,
+        "video": 0,
         "image": 13000,
         "codes": null
       }
@@ -1003,7 +1003,7 @@
       {
         "video": 35,
         "gps": null,
-        "vehicle-data": null,
+        "vehicle-data": 0,
         "codes": null
       }
     ],
@@ -1024,10 +1024,10 @@
     ],
     "data": [
       {
-        "video": null,
-        "lidar": null,
+        "video": 0,
+        "lidar": 0,
         "gps": null,
-        "vehicle-data": null,
+        "vehicle-data": 0,
         "codes": null
       }
     ],

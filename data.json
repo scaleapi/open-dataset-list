@@ -819,7 +819,7 @@
   },
   {
     "dataset": "nuScenes",
-    "provider": ["nuTonomy Inc", "Aptiv"],
+    "provider": ["nuTonomy Inc", "Aptiv", "Scale"],
     "time": 2018,
     "location": [
       {"country": "us", "city": "Boston"},

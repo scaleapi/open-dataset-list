@@ -18,7 +18,8 @@
       "Lidar",
       "Video"
     ],
-    "website": "http://data.apollo.auto/ "
+    "website": "http://data.apollo.auto/",
+    "cover": "baidu"
   },
   {
     "dataset": "ApolloScape",
@@ -36,7 +37,8 @@
       "Bounding Box",
       "Video"
     ],
-    "website": "http://apolloscape.auto/scene.html "
+    "website": "http://apolloscape.auto/scene.html",
+    "cover": "baidu"
   },
   {
     "dataset": "Belgium Traffic Sign",
@@ -56,7 +58,8 @@
     "traffic": [
       "urban"
     ],
-    "website": "http://www.vision.ee.ethz.ch/~timofter/traffic_signs/ "
+    "website": "http://www.vision.ee.ethz.ch/~timofter/traffic_signs/",
+    "cover": "eth-zurich"
   },
   {
     "dataset": "Berkeley DeepDrive",
@@ -91,7 +94,8 @@
       "illumination"
     ],
     "volume": "100000",
-    "website": "http://bdd-data.berkeley.edu/ "
+    "website": "http://bdd-data.berkeley.edu/",
+    "cover": "uc-berkeley"
   },
   {
     "dataset": "Bosch Small Traffic Lights",
@@ -117,7 +121,8 @@
       "weather",
       "illumination"
     ],
-    "website": "https://hci.iwr.uni-heidelberg.de/node/6132 "
+    "website": "https://hci.iwr.uni-heidelberg.de/node/6132",
+    "cover": "bosch"
   },
   {
     "dataset": "Brain4Cars",
@@ -145,7 +150,8 @@
     "diversity": [
       "illumination"
     ],
-    "website": "http://brain4cars.com/"
+    "website": "http://brain4cars.com/",
+    "cover": "cornell-univ"
   },
   {
     "dataset": "Caltech Pedestrian",
@@ -168,7 +174,8 @@
       "urban"
     ],
     "volume": 250000,
-    "website": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/"
+    "website": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/",
+    "cover": "california-technology"
   },
   {
     "dataset": "CamVid",
@@ -192,7 +199,8 @@
       "urban"
     ],
     "volume": 700000,
-    "website": "http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/"
+    "website": "http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/",
+    "cover": "cambridge-u"
   },
   {
     "dataset": "CityScapes",
@@ -223,7 +231,8 @@
       "season"
     ],
     "volume": 25000,
-    "website": "https://www.cityscapes-dataset.com/"
+    "website": "https://www.cityscapes-dataset.com/",
+    "cover": "daimler-ag"
   },
   {
     "dataset": "CMU",
@@ -250,7 +259,8 @@
       "season",
       "illumination"
     ],
-    "website": "http://3dvis.ri.cmu.edu/data-sets/localization/"
+    "website": "http://3dvis.ri.cmu.edu/data-sets/localization/",
+    "cover": "carnegie-mellon-u"
   },
   {
     "dataset": "Comma.ai",
@@ -278,7 +288,8 @@
     "diversity": [
       "night"
     ],
-    "website": "http://research.comma.ai/"
+    "website": "http://research.comma.ai/",
+    "cover": "comma-ai"
   },
   {
     "dataset": "CULane",
@@ -305,7 +316,8 @@
       "night",
       "illumination"
     ],
-    "website": "https://xingangpan.github.io/projects/CULane.html"
+    "website": "https://xingangpan.github.io/projects/CULane.html",
+    "cover": "chinese-u-hong-kong"
   },
   {
     "dataset": "Daimler Pedestrian",
@@ -328,7 +340,8 @@
     "traffic": [
       "urban"
     ],
-    "website": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html"
+    "website": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html",
+    "cover": "daimler-ag"
   },
   {
     "dataset": "DAVIS",
@@ -355,7 +368,8 @@
     "diversity": [
       "night"
     ],
-    "website": "https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub"
+    "website": "https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub",
+    "cover": "zurich-u"
   },
   {
     "dataset": "DBNet",
@@ -381,7 +395,8 @@
       "highway"
     ],
     "volume": 17000,
-    "website": "http://www.dbehavior.net/"
+    "website": "http://www.dbehavior.net/",
+    "cover": "shangai-jiao-tong-u"
   },
   {
     "dataset": "DIPLECS",
@@ -406,7 +421,8 @@
       "rural",
       "highway"
     ],
-    "website": "http://cvssp.org/data/diplecs/"
+    "website": "http://cvssp.org/data/diplecs/",
+    "cover": "surrey-u"
   },
   {
     "dataset": "Dr(eye)ve",
@@ -435,7 +451,8 @@
       "night"
     ],
     "volume": 555000,
-    "website": "http://imagelab.ing.unimore.it/dreyeve"
+    "website": "http://imagelab.ing.unimore.it/dreyeve",
+    "cover": "modena-u"
   },
   {
     "dataset": "EISATS",
@@ -465,7 +482,8 @@
       "night",
       "illumination"
     ],
-    "website": "https://ccv.wordpress.fos.auckland.ac.nz/eisats/"
+    "website": "https://ccv.wordpress.fos.auckland.ac.nz/eisats/",
+    "cover": "auckland-u"
   },
   {
     "dataset": "Elektra",
@@ -491,7 +509,8 @@
       "night"
     ],
     "volume": 200000,
-    "website": "http://adas.cvc.uab.es/elektra/datasets/"
+    "website": "http://adas.cvc.uab.es/elektra/datasets/",
+    "cover": "autonomous-barcelona-u"
   },
   {
     "dataset": "ETH Pedestrian",
@@ -513,7 +532,8 @@
       "urban"
     ],
     "volume": 48000,
-    "website": "https://data.vision.ee.ethz.ch/cvl/aess/dataset/"
+    "website": "https://data.vision.ee.ethz.ch/cvl/aess/dataset/",
+    "cover": "eth-zurich"
   },
   {
     "dataset": "Ford",
@@ -537,7 +557,8 @@
     "traffic": [
       "urban"
     ],
-    "website": "http://robots.engin.umich.edu/SoftwareData/Ford"
+    "website": "http://robots.engin.umich.edu/SoftwareData/Ford",
+    "cover": "michigan-u"
   },
   {
     "dataset": "German Traffic Sign",
@@ -554,7 +575,8 @@
     "annotation": [
       "Bounding Box"
     ],
-    "website": "http://benchmark.ini.rub.de"
+    "website": "http://benchmark.ini.rub.de",
+    "cover": "bochum-u"
   },
   {
     "dataset": "Challenging Stereo",
@@ -579,7 +601,8 @@
       "night",
       "illumination"
     ],
-    "website": "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow"
+    "website": "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow",
+    "cover": "hci"
   },
   {
     "dataset": "HD1K",
@@ -606,7 +629,8 @@
       "illumination"
     ],
     "volume": 1000,
-    "website": "http://hci-benchmark.org/"
+    "website": "http://hci-benchmark.org/",
+    "cover": "hci"
   },
   {
     "dataset": "Highway Workzones",
@@ -632,7 +656,8 @@
       "season",
       "illumination"
     ],
-    "website": "http://www.andrew.cmu.edu/user/jonghole/workzone/data/"
+    "website": "http://www.andrew.cmu.edu/user/jonghole/workzone/data/",
+    "cover": "carneige-mellon-u"
   },
   {
     "dataset": "JAAD",
@@ -659,7 +684,8 @@
       "weather",
       "night"
     ],
-    "website": "http://data.nvision2.eecs.yorku.ca/JAAD_dataset/"
+    "website": "http://data.nvision2.eecs.yorku.ca/JAAD_dataset/",
+    "cover": "york-u"
   },
   {
     "dataset": "KAIST Multi-Spectralm",
@@ -689,7 +715,8 @@
       "night",
       "illumination"
     ],
-    "website": "https://sites.google.com/view/multispectral/"
+    "website": "https://sites.google.com/view/multispectral/",
+    "cover": "kaist"
   },
   {
     "dataset": "KAIST Urban",
@@ -713,7 +740,8 @@
     "traffic": [
       "urban"
     ],
-    "website": "http://irap.kaist.ac.kr/dataset/"
+    "website": "http://irap.kaist.ac.kr/dataset/",
+    "cover": "kaist"
   },
   {
     "dataset": "KITTI",
@@ -746,7 +774,8 @@
     "diversity": [
       "illumination"
     ],
-    "website": "http://www.cvlibs.net/datasets/kitti/"
+    "website": "http://www.cvlibs.net/datasets/kitti/",
+    "cover": "karlsruhe-i"
   },
   {
     "dataset": "LISA Traffic Sign",
@@ -764,7 +793,8 @@
     "annotation": [
       "Bounding Box"
     ],
-    "website": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html"
+    "website": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html",
+    "cover": "california-u"
   },
   {
     "dataset": "LostAndFound",
@@ -786,7 +816,8 @@
       "urban"
     ],
     "volume": 200000,
-    "website": "http://www.6d-vision.com/lostandfounddataset"
+    "website": "http://www.6d-vision.com/lostandfounddataset",
+    "cover": "daimler-ag"
   },
   {
     "dataset": "Malaga",
@@ -810,7 +841,8 @@
     "traffic": [
       "urban"
     ],
-    "website": "https://www.mrpt.org/MalagaUrbanDataset"
+    "website": "https://www.mrpt.org/MalagaUrbanDataset",
+    "cover": "malaga-u"
   },
   {
     "dataset": "Mapillary Vistas",
@@ -837,7 +869,8 @@
       "night",
       "illumination"
     ],
-    "website": "https://www.mapillary.com/dataset/vistas"
+    "website": "https://www.mapillary.com/dataset/vistas",
+    "cover": "mapillary-ab"
   },
   {
     "dataset": "NEXET",
@@ -866,7 +899,8 @@
       "night",
       "illumination"
     ],
-    "website": "https://www.getnexar.com/challenge-2/"
+    "website": "https://www.getnexar.com/challenge-2/",
+    "cover": "nexar"
   },
   {
     "dataset": "nuScenes",
@@ -898,7 +932,8 @@
       "weather",
       "illumination"
     ],
-    "website": "https://www.scale.ai/open-datasets/nuscenes"
+    "website": "https://www.scale.ai/open-datasets/nuscenes",
+    "cover": "nutonomy"
   },
   {
     "dataset": "Oxford RobotCar",
@@ -928,7 +963,8 @@
       "season",
       "illumination"
     ],
-    "website": "http://robotcar-dataset.robots.ox.ac.uk/ "
+    "website": "http://robotcar-dataset.robots.ox.ac.uk/",
+    "cover": "oxford-u"
   },
   {
     "dataset": "Road Damage",
@@ -953,7 +989,8 @@
       "weather"
     ],
     "volume": 200000,
-    "website": "https://bdc2018.mycityreport.net/data/"
+    "website": "https://bdc2018.mycityreport.net/data/",
+    "cover": "tokyo-u"
   },
   {
     "dataset": "Stanford Track",
@@ -976,7 +1013,8 @@
     "traffic": [
       "urban"
     ],
-    "website": "https://cs.stanford.edu/people/teichman/stc/"
+    "website": "https://cs.stanford.edu/people/teichman/stc/",
+    "cover": "stanford-u"
   },
   {
     "dataset": "Stixel",
@@ -1002,7 +1040,8 @@
       "weather"
     ],
     "volume": 2500,
-    "website": "http://www.6d-vision.com/ground-truth-stixel-dataset"
+    "website": "http://www.6d-vision.com/ground-truth-stixel-dataset",
+    "cover": "daimler-ag"
   },
   {
     "dataset": "TME Motorway",
@@ -1027,7 +1066,8 @@
     "diversity": [
       "illumination"
     ],
-    "website": "http://cmp.felk.cvut.cz/data/motorway/ "
+    "website": "http://cmp.felk.cvut.cz/data/motorway/",
+    "cover": "czech-technical-u"
   },
   {
     "dataset": "TuSimple",
@@ -1051,7 +1091,8 @@
     "diversity": [
       "weather"
     ],
-    "website": "https://github.com/TuSimple/tusimple-benchmark/wiki "
+    "website": "https://github.com/TuSimple/tusimple-benchmark/wiki",
+    "cover": "tusimple"
   },
   {
     "dataset": "UAH",
@@ -1075,7 +1116,8 @@
     "traffic": [
       "highway"
     ],
-    "website": "http://www.robesafe.uah.es/personal/eduardo.romera/uah-driveset/"
+    "website": "http://www.robesafe.uah.es/personal/eduardo.romera/uah-driveset/",
+    "cover": "alcala-u"
   },
   {
     "dataset": "Udacity",
@@ -1104,6 +1146,7 @@
     "diversity": [
       "illumination"
     ],
-    "website": "https://github.com/udacity/self-driving-car"
+    "website": "https://github.com/udacity/self-driving-car",
+    "cover": "udacity"
   }
 ]

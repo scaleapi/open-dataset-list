@@ -14,7 +14,9 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Lidar",
+      "Video"
     ],
     "website": "http://data.apollo.auto/ "
   },
@@ -31,7 +33,8 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Video"
     ],
     "website": "http://apolloscape.auto/scene.html "
   },
@@ -74,7 +77,8 @@
     "annotation": [
       "Bounding Box",
       "Semantic Label",
-      "Lane Marking"
+      "Lane Marking",
+      "Video"
     ],
     "traffic": [
       "urban",
@@ -102,7 +106,8 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Video"
     ],
     "traffic": [
       "urban",
@@ -130,7 +135,8 @@
       }
     ],
     "annotation": [
-      "Behavioral Label"
+      "Behavioral Label",
+      "Video"
     ],
     "traffic": [
       "urban",
@@ -155,7 +161,8 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -178,7 +185,8 @@
       }
     ],
     "annotation": [
-      "Semantic Label"
+      "Semantic Label",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -205,7 +213,8 @@
       }
     ],
     "annotation": [
-      "Semantic Label"
+      "Semantic Label",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -229,6 +238,9 @@
         "lidar": 0,
         "gps": null
       }
+    ],
+    "annotation": [
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -255,6 +267,10 @@
         "vehicle-data": 0,
         "codes": null
       }
+    ],
+    "annotation": [
+      "Lidar",
+      "Video"
     ],
     "traffic": [
       "highway"
@@ -306,7 +322,8 @@
     ],
     "annotation": [
       "Bounding Box",
-      "Semantic Label"
+      "Semantic Label",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -329,6 +346,9 @@
         "codes": null
       }
     ],
+    "annotation": [
+      "Video"
+    ],
     "traffic": [
       "highway"
     ],
@@ -350,6 +370,10 @@
         "lidar": 0,
         "vehicle-data": 0
       }
+    ],
+    "annotation": [
+      "Video",
+      "Lidar"
     ],
     "traffic": [
       "urban",
@@ -374,7 +398,8 @@
       }
     ],
     "annotation": [
-      "Behavioral Label"
+      "Behavioral Label",
+      "Video"
     ],
     "traffic": [
       "urban",
@@ -397,7 +422,8 @@
       }
     ],
     "annotation": [
-      "Behavioral Label"
+      "Behavioral Label",
+      "Video"
     ],
     "traffic": [
       "urban",
@@ -426,7 +452,8 @@
       }
     ],
     "annotation": [
-      "Behavioral Label"
+      "Behavioral Label",
+      "Video"
     ],
     "traffic": [
       "urban",
@@ -454,7 +481,8 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -478,7 +506,8 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -500,6 +529,10 @@
         "gps": null,
         "codes": null
       }
+    ],
+    "annotation": [
+      "Lidar",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -535,6 +568,9 @@
         "video": 11
       }
     ],
+    "annotation": [
+      "Video"
+    ],
     "traffic": [
       "urban"
     ],
@@ -558,7 +594,8 @@
       }
     ],
     "annotation": [
-      "Optical Flow"
+      "Optical Flow",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -584,7 +621,8 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Video"
     ],
     "traffic": [
       "highway"
@@ -611,7 +649,8 @@
     ],
     "annotation": [
       "Bounding Box",
-      "Behavioral Label"
+      "Behavioral Label",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -639,7 +678,9 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Lidar",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -665,6 +706,10 @@
         "codes": null
       }
     ],
+    "annotation": [
+      "Lidar",
+      "Video"
+    ],
     "traffic": [
       "urban"
     ],
@@ -689,6 +734,8 @@
     "annotation": [
       "Bounding Box",
       "Semantic Label",
+      "Lidar",
+      "Video",
       "Lane Marking"
     ],
     "traffic": [
@@ -755,6 +802,10 @@
         "gps": null,
         "codes": null
       }
+    ],
+    "annotation": [
+      "Lidar",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -836,6 +887,8 @@
     ],
     "annotation": [
       "Bounding Box",
+      "Lidar",
+      "Video",
       "Behavioral Label"
     ],
     "traffic": [
@@ -862,6 +915,10 @@
         "vehicle-data": 0,
         "codes": null
       }
+    ],
+    "annotation": [
+      "Lidar",
+      "Video"
     ],
     "traffic": [
       "urban"
@@ -913,7 +970,8 @@
       }
     ],
     "annotation": [
-      "stixel"
+      "Stixel",
+      "Lidar"
     ],
     "traffic": [
       "urban"
@@ -934,7 +992,8 @@
       }
     ],
     "annotation": [
-      "stixel"
+      "Stixel",
+      "Video"
     ],
     "traffic": [
       "highway"
@@ -959,7 +1018,8 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Video"
     ],
     "traffic": [
       "highway"
@@ -982,7 +1042,8 @@
     ],
     "annotation": [
       "Bounding Box",
-      "Lane Marking"
+      "Lane Marking",
+      "Video"
     ],
     "traffic": [
       "highway"
@@ -1008,7 +1069,8 @@
       }
     ],
     "annotation": [
-      "Behavioral Label"
+      "Behavioral Label",
+      "Video"
     ],
     "traffic": [
       "highway"
@@ -1032,7 +1094,9 @@
       }
     ],
     "annotation": [
-      "Bounding Box"
+      "Bounding Box",
+      "Lidar",
+      "Video"
     ],
     "traffic": [
       "urban"

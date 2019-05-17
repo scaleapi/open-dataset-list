@@ -1,1152 +1,973 @@
 [
   {
-    "dataset": "Apollo Open Transform",
-    "provider": ["Baidu Inc"],
-    "time": 2018,
-    "location": [
-      {"country": "cn"}
-    ],
+    "annotation": ["Behavioral Label", "Bounding Box", "Lidar", "Video"],
     "data": [
       {
-        "video": 0,
+        "codes": null,
+        "gps": null,
+        "image": 40000,
         "lidar": 0,
-        "vehicle-data": 0
+        "video": 1000
       }
     ],
-    "annotation": [
-      "Bounding Box",
-      "Lidar",
-      "Video"
+    "dataset": "nuScenes",
+    "diversity": ["illumination", "weather"],
+    "id": "nu-scenes-nu-tonomy-inc-aptiv-scale",
+    "location": [
+      {
+        "city": "Boston",
+        "country": "us"
+      },
+      {
+        "country": "sg"
+      }
     ],
-    "website": "http://data.apollo.auto/",
-    "cover": "baidu"
-  },
-  {
-    "dataset": "ApolloScape",
-    "provider": ["Baidu Inc"],
+    "provider": ["Aptiv", "Scale", "nuTonomy Inc"],
     "time": 2018,
-    "location": [
-      {"country": "cn"}
-    ],
-    "data": [
-      {
-        "video": 0
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Video"
-    ],
-    "website": "http://apolloscape.auto/scene.html",
-    "cover": "baidu"
+    "traffic": ["urban"],
+    "website": "https://www.scale.ai/open-datasets/nuscenes"
   },
   {
-    "dataset": "Belgium Traffic Sign",
-    "provider": ["ETH Zurich"],
-    "time": 2011,
-    "location": [
-      {"country": "be"}
-    ],
-    "data": [
-      {
-        "image": 9000
-      }
-    ],
-    "annotation": [
-      "Bounding Box"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "website": "http://www.vision.ee.ethz.ch/~timofter/traffic_signs/",
-    "cover": "eth-zurich"
-  },
-  {
-    "dataset": "Berkeley DeepDrive",
-    "provider": ["UC Berkeley"],
-    "time": 2017,
-    "location": [
-      {"country": "us", "city": "San Francisco"},
-      {"country": "us", "city": "New York"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "image": null,
-        "gps": null,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Semantic Label",
-      "Lane Marking",
-      "Video"
-    ],
-    "traffic": [
-      "urban",
-      "rural",
-      "highway"
-    ],
-    "diversity": [
-      "weather",
-      "night",
-      "illumination"
-    ],
-    "volume": "100000",
-    "website": "http://bdd-data.berkeley.edu/",
-    "cover": "uc-berkeley"
-  },
-  {
-    "dataset": "Bosch Small Traffic Lights",
-    "provider": ["Bosch North America Research"],
-    "time": 2018,
-    "location": [
-      {"country": "us", "city": "San Francisco"}
-    ],
-    "data": [
-      {
-        "video": 0
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Video"
-    ],
-    "traffic": [
-      "urban",
-      "rural"
-    ],
-    "diversity": [
-      "weather",
-      "illumination"
-    ],
-    "website": "https://hci.iwr.uni-heidelberg.de/node/6132",
-    "cover": "bosch"
-  },
-  {
-    "dataset": "Brain4Cars",
-    "provider": ["Cornell Univ."],
-    "time": 2016,
-    "location": [
-      {"country": "us"}
-    ],
-    "data": [
-      {
-        "video": 700000,
-        "gps": null,
-        "vehicle-data": 0,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Behavioral Label",
-      "Video"
-    ],
-    "traffic": [
-      "urban",
-      "highway"
-    ],
-    "diversity": [
-      "illumination"
-    ],
-    "website": "http://brain4cars.com/",
-    "cover": "cornell-univ"
-  },
-  {
-    "dataset": "Caltech Pedestrian",
-    "provider": ["California Institute of Technology"],
-    "time": 2009,
-    "location": [
-      {"country": "us", "city": "Los Angeles"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "volume": 250000,
-    "website": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/",
-    "cover": "california-technology"
-  },
-  {
-    "dataset": "CamVid",
-    "provider": ["University of Cambridge"],
-    "time": 2009,
-    "location": [
-      {"country": "uk", "city": "Cambridge"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "image": null,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Semantic Label",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "volume": 700000,
-    "website": "http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/",
-    "cover": "cambridge-u"
-  },
-  {
-    "dataset": "CityScapes",
-    "provider": ["Daimler AG", "MPI-IS", "TU Darmstadt"],
-    "time": 2016,
-    "location": [
-      {"country": "de"},
-      {"country": "ch"},
-      {"country": "fr"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "image": null,
-        "gps": null,
-        "vehicle-data": 0,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Semantic Label",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "season"
-    ],
-    "volume": 25000,
-    "website": "https://www.cityscapes-dataset.com/",
-    "cover": "daimler-ag"
-  },
-  {
-    "dataset": "CMU",
-    "provider": ["Carnegie Mellon University"],
-    "time": 2011,
-    "location": [
-      {"country": "us", "city": "Pittsburgh"}
-    ],
-    "data": [
-      {
-        "video": 16000,
-        "lidar": 0,
-        "gps": null
-      }
-    ],
-    "annotation": [
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "weather",
-      "season",
-      "illumination"
-    ],
-    "website": "http://3dvis.ri.cmu.edu/data-sets/localization/",
-    "cover": "carnegie-mellon-u"
-  },
-  {
-    "dataset": "Comma.ai",
-    "provider": ["comma.ai"],
-    "time": 2016,
-    "location": [
-      {"country": "us", "city": "San Francisco"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "lidar": 0,
-        "gps": null,
-        "vehicle-data": 0,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Lidar",
-      "Video"
-    ],
-    "traffic": [
-      "highway"
-    ],
-    "diversity": [
-      "night"
-    ],
-    "website": "http://research.comma.ai/",
-    "cover": "comma-ai"
-  },
-  {
-    "dataset": "CULane",
-    "provider": ["The Chinese University of Hong Kong"],
-    "time": 2018,
-    "location": [
-      {"country": "cn", "city": "Beijing"}
-    ],
-    "data": [
-      {
-        "image": 133000,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Lane Marking"
-    ],
-    "traffic": [
-      "urban",
-      "rural",
-      "highway"
-    ],
-    "diversity": [
-      "night",
-      "illumination"
-    ],
-    "website": "https://xingangpan.github.io/projects/CULane.html",
-    "cover": "chinese-u-hong-kong"
-  },
-  {
-    "dataset": "Daimler Pedestrian",
-    "provider": ["Daimler AG R&D", "Univ. of Amsterdam"],
-    "time": 2016,
-    "location": [
-      {"country": "cn", "city": "Beijing"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "image": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Semantic Label",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "website": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html",
-    "cover": "daimler-ag"
-  },
-  {
-    "dataset": "DAVIS",
-    "provider": ["Univ. of Zurich", "ETH Zurich"],
-    "time": 2018,
-    "location": [
-      {"country": "ch"},
-      {"country": "de"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "gps": null,
-        "vehicle-data": 0,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Video"
-    ],
-    "traffic": [
-      "highway"
-    ],
-    "diversity": [
-      "night"
-    ],
-    "website": "https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub",
-    "cover": "zurich-u"
-  },
-  {
-    "dataset": "DBNet",
-    "provider": ["Shanghai Jiao Tong Univ", "Xiamen Univ"],
-    "time": 2018,
-    "location": [
-      {"country": "ch"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "lidar": 0,
-        "vehicle-data": 0
-      }
-    ],
-    "annotation": [
-      "Video",
-      "Lidar"
-    ],
-    "traffic": [
-      "urban",
-      "rural",
-      "highway"
-    ],
-    "volume": 17000,
-    "website": "http://www.dbehavior.net/",
-    "cover": "shangai-jiao-tong-u"
-  },
-  {
-    "dataset": "DIPLECS",
-    "provider": ["Univ. of Surrey"],
-    "time": 2015,
-    "location": [
-      {"country": "uk", "city": "Surrey"},
-      {"country": "se", "city": "Stockholm"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "vehicle-data": 0
-      }
-    ],
-    "annotation": [
-      "Behavioral Label",
-      "Video"
-    ],
-    "traffic": [
-      "urban",
-      "rural",
-      "highway"
-    ],
-    "website": "http://cvssp.org/data/diplecs/",
-    "cover": "surrey-u"
-  },
-  {
-    "dataset": "Dr(eye)ve",
-    "provider": ["Univ. of Modena", "Reggio Emilia"],
-    "time": 2016,
-    "location": [
-      {"country": "it", "city": "Modena"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "vehicle-data": 0
-      }
-    ],
-    "annotation": [
-      "Behavioral Label",
-      "Video"
-    ],
-    "traffic": [
-      "urban",
-      "rural",
-      "highway"
-    ],
-    "diversity": [
-      "weather",
-      "night"
-    ],
-    "volume": 555000,
-    "website": "http://imagelab.ing.unimore.it/dreyeve",
-    "cover": "modena-u"
-  },
-  {
-    "dataset": "EISATS",
-    "provider": ["Univ. of Auckland"],
-    "time": 2010,
-    "location": [
-      {"country": "de"},
-      {"country": "nz"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "lidar": null
-      }
-    ],
-    "annotation": [
-      "Behavioral Label",
-      "Video"
-    ],
-    "traffic": [
-      "urban",
-      "rural",
-      "highway"
-    ],
-    "diversity": [
-      "weather",
-      "night",
-      "illumination"
-    ],
-    "website": "https://ccv.wordpress.fos.auckland.ac.nz/eisats/",
-    "cover": "auckland-u"
-  },
-  {
-    "dataset": "Elektra",
-    "provider": ["Autonomous Univ. of Barcelona", "Polytechnic Univ. of Catalonia"],
-    "time": 2016,
-    "location": [
-      {"country": "sp", "city": "Barcelona"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "infrared": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "night"
-    ],
-    "volume": 200000,
-    "website": "http://adas.cvc.uab.es/elektra/datasets/",
-    "cover": "autonomous-barcelona-u"
-  },
-  {
-    "dataset": "ETH Pedestrian",
-    "provider": ["ETH Zurich"],
-    "time": 2018,
-    "location": [
-      {"country": "ch", "city": "Zurich"}
-    ],
-    "data": [
-      {
-        "video": 0
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "volume": 48000,
-    "website": "https://data.vision.ee.ethz.ch/cvl/aess/dataset/",
-    "cover": "eth-zurich"
-  },
-  {
-    "dataset": "Ford",
-    "provider": ["Univ. of Michigan"],
-    "time": 2018,
-    "location": [
-      {"country": "ch", "city": ""}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "lidar": 0,
-        "gps": null,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Lidar",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "website": "http://robots.engin.umich.edu/SoftwareData/Ford",
-    "cover": "michigan-u"
-  },
-  {
-    "dataset": "German Traffic Sign",
-    "provider": ["Ruhr Univ. Bochum"],
-    "time": 2012,
-    "location": [
-      {"country": "de"}
-    ],
-    "data": [
-      {
-        "image": 5000
-      }
-    ],
-    "annotation": [
-      "Bounding Box"
-    ],
-    "website": "http://benchmark.ini.rub.de",
-    "cover": "bochum-u"
-  },
-  {
-    "dataset": "Challenging Stereo",
-    "provider": ["HCI(Heidelberg)", "Bosch Corporation Research"],
-    "time": 2012,
-    "location": [
-      {"country": "de", "city": "Hildesheim"}
-    ],
-    "data": [
-      {
-        "video": 11
-      }
-    ],
-    "annotation": [
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "weather",
-      "night",
-      "illumination"
-    ],
-    "website": "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow",
-    "cover": "hci"
-  },
-  {
-    "dataset": "HD1K",
-    "provider": ["HCI (Heidelberg), Robert Bosch GmbH"],
-    "time": 2018,
-    "location": [
-      {"country": "de", "city": "Heidelberg"}
-    ],
-    "data": [
-      {
-        "video": 0
-      }
-    ],
-    "annotation": [
-      "Optical Flow",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "weather",
-      "night",
-      "illumination"
-    ],
-    "volume": 1000,
-    "website": "http://hci-benchmark.org/",
-    "cover": "hci"
-  },
-  {
-    "dataset": "Highway Workzones",
-    "provider": ["Carnegie Mellon Univ"],
-    "time": 2015,
-    "location": [
-      {"country": "us"}
-    ],
-    "data": [
-      {
-        "video": 6
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Video"
-    ],
-    "traffic": [
-      "highway"
-    ],
-    "diversity": [
-      "weather",
-      "season",
-      "illumination"
-    ],
-    "website": "http://www.andrew.cmu.edu/user/jonghole/workzone/data/",
-    "cover": "carneige-mellon-u"
-  },
-  {
-    "dataset": "JAAD",
-    "provider": ["York University"],
-    "time": 2016,
-    "location": [
-      {"country": "ua"},
-      {"country": "ca"}
-    ],
+    "annotation": ["Behavioral Label", "Bounding Box", "Video"],
     "data": [
       {
         "video": 347
       }
     ],
-    "annotation": [
-      "Bounding Box",
-      "Behavioral Label",
-      "Video"
+    "dataset": "JAAD",
+    "diversity": ["night", "weather"],
+    "id": "jaad-york-university",
+    "location": [
+      {
+        "country": "ca"
+      },
+      {
+        "country": "ua"
+      }
     ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "weather",
-      "night"
-    ],
-    "website": "http://data.nvision2.eecs.yorku.ca/JAAD_dataset/",
-    "cover": "york-u"
+    "provider": ["York University"],
+    "time": 2016,
+    "traffic": ["urban"],
+    "website": "http://data.nvision2.eecs.yorku.ca/JAAD_dataset/"
   },
   {
-    "dataset": "KAIST Multi-Spectralm",
-    "provider": ["KAIST"],
+    "annotation": ["Behavioral Label", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "vehicle-data": 0,
+        "video": 35
+      }
+    ],
+    "dataset": "UAH",
+    "id": "uah-university-of-alcala",
+    "location": [
+      {
+        "city": "Madrid",
+        "country": "es"
+      }
+    ],
+    "provider": ["University of Alcala"],
+    "time": 2016,
+    "traffic": ["highway"],
+    "website": "http://www.robesafe.uah.es/personal/eduardo.romera/uah-driveset/"
+  },
+  {
+    "annotation": ["Behavioral Label", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "vehicle-data": 0,
+        "video": 700000
+      }
+    ],
+    "dataset": "Brain4Cars",
+    "diversity": ["illumination"],
+    "id": "brain-4-cars-cornell-univ",
+    "location": [
+      {
+        "country": "us"
+      }
+    ],
+    "provider": ["Cornell Univ."],
+    "time": 2016,
+    "traffic": ["highway", "urban"],
+    "website": "http://brain4cars.com/"
+  },
+  {
+    "annotation": ["Behavioral Label", "Video"],
+    "data": [
+      {
+        "lidar": null,
+        "video": 0
+      }
+    ],
+    "dataset": "EISATS",
+    "diversity": ["illumination", "night", "weather"],
+    "id": "eisats-univ-of-auckland",
+    "location": [
+      {
+        "country": "de"
+      },
+      {
+        "country": "nz"
+      }
+    ],
+    "provider": ["Univ. of Auckland"],
+    "time": 2010,
+    "traffic": ["highway", "rural", "urban"],
+    "website": "https://ccv.wordpress.fos.auckland.ac.nz/eisats/"
+  },
+  {
+    "annotation": ["Behavioral Label", "Video"],
+    "data": [
+      {
+        "vehicle-data": 0,
+        "video": 0
+      }
+    ],
+    "dataset": "DIPLECS",
+    "id": "diplecs-univ-of-surrey",
+    "location": [
+      {
+        "city": "Stockholm",
+        "country": "se"
+      },
+      {
+        "city": "Surrey",
+        "country": "uk"
+      }
+    ],
+    "provider": ["Univ. of Surrey"],
     "time": 2015,
-    "location": [
-      {"country": "kr"}
-    ],
-    "data": [
-      {
-        "video": 10,
-        "lidar": 0,
-        "gps": null,
-        "thermal": null,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Lidar",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "night",
-      "illumination"
-    ],
-    "website": "https://sites.google.com/view/multispectral/",
-    "cover": "kaist"
+    "traffic": ["highway", "rural", "urban"],
+    "website": "http://cvssp.org/data/diplecs/"
   },
   {
-    "dataset": "KAIST Urban",
-    "provider": ["KAIST"],
-    "time": 2018,
-    "location": [
-      {"country": "kr"}
-    ],
+    "annotation": ["Behavioral Label", "Video"],
     "data": [
       {
-        "video": 19,
-        "lidar": 0,
-        "gps": null,
-        "codes": null
+        "vehicle-data": 0,
+        "video": 0
       }
     ],
-    "annotation": [
-      "Lidar",
-      "Video"
+    "dataset": "Dr(eye)ve",
+    "diversity": ["night", "weather"],
+    "id": "dr-eye-ve-univ-of-modena-reggio-emilia",
+    "location": [
+      {
+        "city": "Modena",
+        "country": "it"
+      }
     ],
-    "traffic": [
-      "urban"
-    ],
-    "website": "http://irap.kaist.ac.kr/dataset/",
-    "cover": "kaist"
+    "provider": ["Reggio Emilia", "Univ. of Modena"],
+    "time": 2016,
+    "traffic": ["highway", "rural", "urban"],
+    "volume": 555000,
+    "website": "http://imagelab.ing.unimore.it/dreyeve"
   },
   {
-    "dataset": "KITTI",
-    "provider": ["Karlsruhe Inst of Technology", "Toyota Technological Inst"],
-    "time": 2011,
-    "location": [
-      {"country": "de", "city": "Karlsruhe"}
-    ],
+    "annotation": ["Bounding Box", "Lane Marking", "Lidar", "Semantic Label", "Video"],
     "data": [
       {
-        "video": 0,
+        "codes": null,
+        "gps": null,
         "image": null,
         "lidar": 0,
-        "gps": null,
-        "codes": null
+        "video": 0
       }
     ],
-    "annotation": [
-      "Bounding Box",
-      "Semantic Label",
-      "Lidar",
-      "Video",
-      "Lane Marking"
+    "dataset": "KITTI",
+    "diversity": ["illumination"],
+    "id": "kitti-karlsruhe-inst-of-technology-toyota-technological-inst",
+    "location": [
+      {
+        "city": "Karlsruhe",
+        "country": "de"
+      }
     ],
-    "traffic": [
-      "urban",
-      "rural",
-      "highway"
-    ],
-    "diversity": [
-      "illumination"
-    ],
-    "website": "http://www.cvlibs.net/datasets/kitti/",
-    "cover": "karlsruhe-i"
+    "provider": ["Karlsruhe Inst of Technology", "Toyota Technological Inst"],
+    "time": 2011,
+    "traffic": ["highway", "rural", "urban"],
+    "website": "http://www.cvlibs.net/datasets/kitti/"
   },
   {
-    "dataset": "LISA Traffic Sign",
-    "provider": ["Univ. of California", "San Diego"],
-    "time": 2012,
-    "location": [
-      {"country": "us"}
-    ],
+    "annotation": ["Bounding Box", "Lane Marking", "Semantic Label", "Video"],
     "data": [
       {
-        "image": 6600,
-        "codes": null
+        "codes": null,
+        "gps": null,
+        "image": null,
+        "video": 0
       }
     ],
-    "annotation": [
-      "Bounding Box"
+    "dataset": "Berkeley DeepDrive",
+    "diversity": ["illumination", "night", "weather"],
+    "id": "berkeley-deep-drive-uc-berkeley",
+    "location": [
+      {
+        "city": "New York",
+        "country": "us"
+      },
+      {
+        "city": "San Francisco",
+        "country": "us"
+      }
     ],
-    "website": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html",
-    "cover": "california-u"
+    "provider": ["UC Berkeley"],
+    "time": 2017,
+    "traffic": ["highway", "rural", "urban"],
+    "volume": "100000",
+    "website": "http://bdd-data.berkeley.edu/"
   },
   {
-    "dataset": "LostAndFound",
-    "provider": ["Daimler AG"],
-    "time": 2016,
-    "location": [
-      {"country": "de"}
+    "annotation": ["Bounding Box", "Lane Marking", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "image": 13000,
+        "video": 0
+      }
     ],
+    "dataset": "TuSimple",
+    "diversity": ["weather"],
+    "id": "tu-simple-tu-simple",
+    "provider": ["TuSimple"],
+    "time": 2017,
+    "traffic": ["highway"],
+    "website": "https://github.com/TuSimple/tusimple-benchmark/wiki"
+  },
+  {
+    "annotation": ["Bounding Box", "Lidar", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "lidar": 0,
+        "thermal": null,
+        "video": 10
+      }
+    ],
+    "dataset": "KAIST Multi-Spectralm",
+    "diversity": ["illumination", "night"],
+    "id": "kaist-multi-spectralm-kaist",
+    "location": [
+      {
+        "country": "kr"
+      }
+    ],
+    "provider": ["KAIST"],
+    "time": 2015,
+    "traffic": ["urban"],
+    "website": "https://sites.google.com/view/multispectral/"
+  },
+  {
+    "annotation": ["Bounding Box", "Lidar", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "lidar": 0,
+        "vehicle-data": 0,
+        "video": 0
+      }
+    ],
+    "dataset": "Udacity",
+    "diversity": ["illumination"],
+    "id": "udacity-udacity",
+    "location": [
+      {
+        "city": "Mountain View",
+        "country": "us"
+      }
+    ],
+    "provider": ["Udacity"],
+    "time": 2016,
+    "traffic": ["urban"],
+    "website": "https://github.com/udacity/self-driving-car"
+  },
+  {
+    "annotation": ["Bounding Box", "Lidar", "Video"],
+    "data": [
+      {
+        "lidar": 0,
+        "vehicle-data": 0,
+        "video": 0
+      }
+    ],
+    "dataset": "Apollo Open Transform",
+    "id": "apollo-open-transform-baidu-inc",
+    "location": [
+      {
+        "country": "cn"
+      }
+    ],
+    "provider": ["Baidu Inc"],
+    "time": 2018,
+    "website": "http://data.apollo.auto/"
+  },
+  {
+    "annotation": ["Bounding Box", "Semantic Label", "Video"],
+    "data": [
+      {
+        "image": null,
+        "video": 0
+      }
+    ],
+    "dataset": "Daimler Pedestrian",
+    "id": "daimler-pedestrian-daimler-ag-r-d-univ-of-amsterdam",
+    "location": [
+      {
+        "city": "Beijing",
+        "country": "cn"
+      }
+    ],
+    "provider": ["Daimler AG R&D", "Univ. of Amsterdam"],
+    "time": 2016,
+    "traffic": ["urban"],
+    "website": "http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html"
+  },
+  {
+    "annotation": ["Bounding Box", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "video": 0
+      }
+    ],
+    "dataset": "Caltech Pedestrian",
+    "id": "caltech-pedestrian-california-institute-of-technology",
+    "location": [
+      {
+        "city": "Los Angeles",
+        "country": "us"
+      }
+    ],
+    "provider": ["California Institute of Technology"],
+    "time": 2009,
+    "traffic": ["urban"],
+    "volume": 250000,
+    "website": "http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/"
+  },
+  {
+    "annotation": ["Bounding Box", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "video": 28
+      }
+    ],
+    "dataset": "TME Motorway",
+    "diversity": ["illumination"],
+    "id": "tme-motorway-czech-technical-univ",
+    "location": [
+      {
+        "city": "Northern",
+        "country": "it"
+      }
+    ],
+    "provider": ["Czech Technical Univ."],
+    "time": 2011,
+    "traffic": ["highway"],
+    "website": "http://cmp.felk.cvut.cz/data/motorway/"
+  },
+  {
+    "annotation": ["Bounding Box", "Video"],
+    "data": [
+      {
+        "infrared": null,
+        "video": 0
+      }
+    ],
+    "dataset": "Elektra",
+    "diversity": ["night"],
+    "id": "elektra-autonomous-univ-of-barcelona-polytechnic-univ-of-catalonia",
+    "location": [
+      {
+        "city": "Barcelona",
+        "country": "sp"
+      }
+    ],
+    "provider": ["Autonomous Univ. of Barcelona", "Polytechnic Univ. of Catalonia"],
+    "time": 2016,
+    "traffic": ["urban"],
+    "volume": 200000,
+    "website": "http://adas.cvc.uab.es/elektra/datasets/"
+  },
+  {
+    "annotation": ["Bounding Box", "Video"],
+    "data": [
+      {
+        "video": 0
+      }
+    ],
+    "dataset": "ApolloScape",
+    "id": "apollo-scape-baidu-inc",
+    "location": [
+      {
+        "country": "cn"
+      }
+    ],
+    "provider": ["Baidu Inc"],
+    "time": 2018,
+    "website": "http://apolloscape.auto/scene.html"
+  },
+  {
+    "annotation": ["Bounding Box", "Video"],
+    "data": [
+      {
+        "video": 0
+      }
+    ],
+    "dataset": "Bosch Small Traffic Lights",
+    "diversity": ["illumination", "weather"],
+    "id": "bosch-small-traffic-lights-bosch-north-america-research",
+    "location": [
+      {
+        "city": "San Francisco",
+        "country": "us"
+      }
+    ],
+    "provider": ["Bosch North America Research"],
+    "time": 2018,
+    "traffic": ["rural", "urban"],
+    "website": "https://hci.iwr.uni-heidelberg.de/node/6132"
+  },
+  {
+    "annotation": ["Bounding Box", "Video"],
+    "data": [
+      {
+        "video": 0
+      }
+    ],
+    "dataset": "ETH Pedestrian",
+    "id": "eth-pedestrian-eth-zurich",
+    "location": [
+      {
+        "city": "Zurich",
+        "country": "ch"
+      }
+    ],
+    "provider": ["ETH Zurich"],
+    "time": 2018,
+    "traffic": ["urban"],
+    "volume": 48000,
+    "website": "https://data.vision.ee.ethz.ch/cvl/aess/dataset/"
+  },
+  {
+    "annotation": ["Bounding Box", "Video"],
+    "data": [
+      {
+        "video": 6
+      }
+    ],
+    "dataset": "Highway Workzones",
+    "diversity": ["illumination", "season", "weather"],
+    "id": "highway-workzones-carnegie-mellon-univ",
+    "location": [
+      {
+        "country": "us"
+      }
+    ],
+    "provider": ["Carnegie Mellon Univ"],
+    "time": 2015,
+    "traffic": ["highway"],
+    "website": "http://www.andrew.cmu.edu/user/jonghole/workzone/data/"
+  },
+  {
+    "annotation": ["Bounding Box"],
+    "data": [
+      {
+        "codes": null,
+        "image": 55000
+      }
+    ],
+    "dataset": "NEXET",
+    "diversity": ["illumination", "night", "season", "weather"],
+    "id": "nexet-nexar",
+    "location": [
+      {
+        "city": "",
+        "country": "ch"
+      }
+    ],
+    "provider": ["Nexar"],
+    "time": 2017,
+    "traffic": ["highway", "rural", "urban"],
+    "website": "https://www.getnexar.com/challenge-2/"
+  },
+  {
+    "annotation": ["Bounding Box"],
+    "data": [
+      {
+        "codes": null,
+        "image": 6600
+      }
+    ],
+    "dataset": "LISA Traffic Sign",
+    "id": "lisa-traffic-sign-univ-of-california-san-diego",
+    "location": [
+      {
+        "country": "us"
+      }
+    ],
+    "provider": ["San Diego", "Univ. of California"],
+    "time": 2012,
+    "website": "http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html"
+  },
+  {
+    "annotation": ["Bounding Box"],
+    "data": [
+      {
+        "codes": null,
+        "image": 9000
+      }
+    ],
+    "dataset": "Road Damage",
+    "diversity": ["weather"],
+    "id": "road-damage-univ-of-tokyo",
+    "location": [
+      {
+        "country": "jp"
+      }
+    ],
+    "provider": ["Univ. of Tokyo"],
+    "time": 2018,
+    "traffic": ["urban"],
+    "volume": 200000,
+    "website": "https://bdc2018.mycityreport.net/data/"
+  },
+  {
+    "annotation": ["Bounding Box"],
+    "data": [
+      {
+        "image": 5000
+      }
+    ],
+    "dataset": "German Traffic Sign",
+    "id": "german-traffic-sign-ruhr-univ-bochum",
+    "location": [
+      {
+        "country": "de"
+      }
+    ],
+    "provider": ["Ruhr Univ. Bochum"],
+    "time": 2012,
+    "website": "http://benchmark.ini.rub.de"
+  },
+  {
+    "annotation": ["Bounding Box"],
+    "data": [
+      {
+        "image": 9000
+      }
+    ],
+    "dataset": "Belgium Traffic Sign",
+    "id": "belgium-traffic-sign-eth-zurich",
+    "location": [
+      {
+        "country": "be"
+      }
+    ],
+    "provider": ["ETH Zurich"],
+    "time": 2011,
+    "traffic": ["urban"],
+    "website": "http://www.vision.ee.ethz.ch/~timofter/traffic_signs/"
+  },
+  {
+    "annotation": ["Lane Marking"],
+    "data": [
+      {
+        "codes": null,
+        "image": 133000
+      }
+    ],
+    "dataset": "CULane",
+    "diversity": ["illumination", "night"],
+    "id": "cu-lane-the-chinese-university-of-hong-kong",
+    "location": [
+      {
+        "city": "Beijing",
+        "country": "cn"
+      }
+    ],
+    "provider": ["The Chinese University of Hong Kong"],
+    "time": 2018,
+    "traffic": ["highway", "rural", "urban"],
+    "website": "https://xingangpan.github.io/projects/CULane.html"
+  },
+  {
+    "annotation": ["Lidar", "Stixel"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "lidar": 0
+      }
+    ],
+    "dataset": "Stanford Track",
+    "id": "stanford-track-stanford-univ",
+    "location": [
+      {
+        "city": "Stanford Univ.",
+        "country": "us"
+      }
+    ],
+    "provider": ["Stanford Univ"],
+    "time": 2010,
+    "traffic": ["urban"],
+    "website": "https://cs.stanford.edu/people/teichman/stc/"
+  },
+  {
+    "annotation": ["Lidar", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "lidar": 0,
+        "vehicle-data": 0,
+        "video": 0
+      }
+    ],
+    "dataset": "Comma.ai",
+    "diversity": ["night"],
+    "id": "comma-ai-comma-ai",
+    "location": [
+      {
+        "city": "San Francisco",
+        "country": "us"
+      }
+    ],
+    "provider": ["comma.ai"],
+    "time": 2016,
+    "traffic": ["highway"],
+    "website": "http://research.comma.ai/"
+  },
+  {
+    "annotation": ["Lidar", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "lidar": 0,
+        "vehicle-data": 0,
+        "video": 130
+      }
+    ],
+    "dataset": "Oxford RobotCar",
+    "diversity": ["illumination", "season", "weather"],
+    "id": "oxford-robot-car-oxford-univ",
+    "location": [
+      {
+        "city": "Central Oxford",
+        "country": "uk"
+      }
+    ],
+    "provider": ["Oxford Univ."],
+    "time": 2015,
+    "traffic": ["urban"],
+    "website": "http://robotcar-dataset.robots.ox.ac.uk/"
+  },
+  {
+    "annotation": ["Lidar", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "lidar": 0,
+        "video": 0
+      }
+    ],
+    "dataset": "Ford",
+    "id": "ford-univ-of-michigan",
+    "location": [
+      {
+        "city": "",
+        "country": "ch"
+      }
+    ],
+    "provider": ["Univ. of Michigan"],
+    "time": 2018,
+    "traffic": ["urban"],
+    "website": "http://robots.engin.umich.edu/SoftwareData/Ford"
+  },
+  {
+    "annotation": ["Lidar", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "lidar": 0,
+        "video": 15
+      }
+    ],
+    "dataset": "Malaga",
+    "id": "malaga-univ-of-malaga",
+    "location": [
+      {
+        "city": "Malaga",
+        "country": "es"
+      }
+    ],
+    "provider": ["Univ. of Malaga"],
+    "time": 2018,
+    "traffic": ["urban"],
+    "website": "https://www.mrpt.org/MalagaUrbanDataset"
+  },
+  {
+    "annotation": ["Lidar", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "lidar": 0,
+        "video": 19
+      }
+    ],
+    "dataset": "KAIST Urban",
+    "id": "kaist-urban-kaist",
+    "location": [
+      {
+        "country": "kr"
+      }
+    ],
+    "provider": ["KAIST"],
+    "time": 2018,
+    "traffic": ["urban"],
+    "website": "http://irap.kaist.ac.kr/dataset/"
+  },
+  {
+    "annotation": ["Lidar", "Video"],
+    "data": [
+      {
+        "lidar": 0,
+        "vehicle-data": 0,
+        "video": 0
+      }
+    ],
+    "dataset": "DBNet",
+    "id": "db-net-shanghai-jiao-tong-univ-xiamen-univ",
+    "location": [
+      {
+        "country": "ch"
+      }
+    ],
+    "provider": ["Shanghai Jiao Tong Univ", "Xiamen Univ"],
+    "time": 2018,
+    "traffic": ["highway", "rural", "urban"],
+    "volume": 17000,
+    "website": "http://www.dbehavior.net/"
+  },
+  {
+    "annotation": ["Optical Flow", "Video"],
+    "data": [
+      {
+        "video": 0
+      }
+    ],
+    "dataset": "HD1K",
+    "diversity": ["illumination", "night", "weather"],
+    "id": "hd-1-k-hci-heidelberg-robert-bosch-gmb-h",
+    "location": [
+      {
+        "city": "Heidelberg",
+        "country": "de"
+      }
+    ],
+    "provider": ["HCI (Heidelberg), Robert Bosch GmbH"],
+    "time": 2018,
+    "traffic": ["urban"],
+    "volume": 1000,
+    "website": "http://hci-benchmark.org/"
+  },
+  {
+    "annotation": ["Semantic Label", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "gps": null,
+        "image": null,
+        "vehicle-data": 0,
+        "video": 0
+      }
+    ],
+    "dataset": "CityScapes",
+    "diversity": ["season"],
+    "id": "city-scapes-daimler-ag-mpi-is-tu-darmstadt",
+    "location": [
+      {
+        "country": "ch"
+      },
+      {
+        "country": "de"
+      },
+      {
+        "country": "fr"
+      }
+    ],
+    "provider": ["Daimler AG", "MPI-IS", "TU Darmstadt"],
+    "time": 2016,
+    "traffic": ["urban"],
+    "volume": 25000,
+    "website": "https://www.cityscapes-dataset.com/"
+  },
+  {
+    "annotation": ["Semantic Label", "Video"],
+    "data": [
+      {
+        "codes": null,
+        "image": null,
+        "video": 0
+      }
+    ],
+    "dataset": "CamVid",
+    "id": "cam-vid-university-of-cambridge",
+    "location": [
+      {
+        "city": "Cambridge",
+        "country": "uk"
+      }
+    ],
+    "provider": ["University of Cambridge"],
+    "time": 2009,
+    "traffic": ["urban"],
+    "volume": 700000,
+    "website": "http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/"
+  },
+  {
+    "annotation": ["Semantic Label"],
     "data": [
       {
         "image": 2000,
         "vehicle-data": 0
       }
     ],
-    "annotation": [
-      "Semantic Label"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "volume": 200000,
-    "website": "http://www.6d-vision.com/lostandfounddataset",
-    "cover": "daimler-ag"
-  },
-  {
-    "dataset": "Malaga",
-    "provider": ["Univ. of Malaga"],
-    "time": 2018,
+    "dataset": "LostAndFound",
+    "id": "lost-and-found-daimler-ag",
     "location": [
-      {"country": "es", "city": "Malaga"}
-    ],
-    "data": [
       {
-        "video": 15,
-        "lidar": 0,
-        "gps": null,
-        "codes": null
+        "country": "de"
       }
     ],
-    "annotation": [
-      "Lidar",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "website": "https://www.mrpt.org/MalagaUrbanDataset",
-    "cover": "malaga-u"
+    "provider": ["Daimler AG"],
+    "time": 2016,
+    "traffic": ["urban"],
+    "volume": 200000,
+    "website": "http://www.6d-vision.com/lostandfounddataset"
   },
   {
-    "dataset": "Mapillary Vistas",
-    "provider": ["Mapillary AB"],
-    "time": 2017,
-    "location": [
-      {"country": "ch", "city": ""}
-    ],
+    "annotation": ["Semantic Label"],
     "data": [
       {
         "image": 25000
       }
     ],
-    "annotation": [
-      "Semantic Label"
+    "dataset": "Mapillary Vistas",
+    "diversity": ["illumination", "night", "season", "weather"],
+    "id": "mapillary-vistas-mapillary-ab",
+    "location": [
+      {
+        "city": "",
+        "country": "ch"
+      }
     ],
-    "traffic": [
-      "urban",
-      "rural"
-    ],
-    "diversity": [
-      "weather",
-      "season",
-      "night",
-      "illumination"
-    ],
-    "website": "https://www.mapillary.com/dataset/vistas",
-    "cover": "mapillary-ab"
-  },
-  {
-    "dataset": "NEXET",
-    "provider": ["Nexar"],
+    "provider": ["Mapillary AB"],
     "time": 2017,
-    "location": [
-      {"country": "ch", "city": ""}
-    ],
-    "data": [
-      {
-        "image": 55000,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box"
-    ],
-    "traffic": [
-      "urban",
-      "rural",
-      "highway"
-    ],
-    "diversity": [
-      "weather",
-      "season",
-      "night",
-      "illumination"
-    ],
-    "website": "https://www.getnexar.com/challenge-2/",
-    "cover": "nexar"
+    "traffic": ["rural", "urban"],
+    "website": "https://www.mapillary.com/dataset/vistas"
   },
   {
-    "dataset": "nuScenes",
-    "provider": ["nuTonomy Inc", "Aptiv", "Scale"],
-    "time": 2018,
-    "location": [
-      {"country": "us", "city": "Boston"},
-      {"country": "sg"}
-    ],
+    "annotation": ["Stixel", "Video"],
     "data": [
       {
-        "video": 1000,
-        "image": 40000,
-        "lidar": 0,
-        "gps": null,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Lidar",
-      "Video",
-      "Behavioral Label"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "weather",
-      "illumination"
-    ],
-    "website": "https://www.scale.ai/open-datasets/nuscenes",
-    "cover": "nutonomy"
-  },
-  {
-    "dataset": "Oxford RobotCar",
-    "provider": ["Oxford Univ."],
-    "time": 2015,
-    "location": [
-      {"country": "uk", "city": "Central Oxford"}
-    ],
-    "data": [
-      {
-        "video": 130,
-        "lidar": 0,
-        "gps": null,
         "vehicle-data": 0,
-        "codes": null
+        "video": 0
       }
     ],
-    "annotation": [
-      "Lidar",
-      "Video"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "weather",
-      "season",
-      "illumination"
-    ],
-    "website": "http://robotcar-dataset.robots.ox.ac.uk/",
-    "cover": "oxford-u"
-  },
-  {
-    "dataset": "Road Damage",
-    "provider": ["Univ. of Tokyo"],
-    "time": 2018,
-    "location": [
-      {"country": "jp"}
-    ],
-    "data": [
-      {
-        "image": 9000,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "diversity": [
-      "weather"
-    ],
-    "volume": 200000,
-    "website": "https://bdc2018.mycityreport.net/data/",
-    "cover": "tokyo-u"
-  },
-  {
-    "dataset": "Stanford Track",
-    "provider": ["Stanford Univ"],
-    "time": 2010,
-    "location": [
-      {"country": "us", "city": "Stanford Univ."}
-    ],
-    "data": [
-      {
-        "lidar": 0,
-        "gps": null,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Stixel",
-      "Lidar"
-    ],
-    "traffic": [
-      "urban"
-    ],
-    "website": "https://cs.stanford.edu/people/teichman/stc/",
-    "cover": "stanford-u"
-  },
-  {
     "dataset": "Stixel",
+    "diversity": ["weather"],
+    "id": "stixel-daimler-ag",
+    "location": [
+      {
+        "country": "de"
+      }
+    ],
     "provider": ["Daimler AG"],
     "time": 2013,
-    "location": [
-      {"country": "de"}
-    ],
-    "data": [
-      {
-        "video": 0,
-        "vehicle-data": 0
-      }
-    ],
-    "annotation": [
-      "Stixel",
-      "Video"
-    ],
-    "traffic": [
-      "highway"
-    ],
-    "diversity": [
-      "weather"
-    ],
+    "traffic": ["highway"],
     "volume": 2500,
-    "website": "http://www.6d-vision.com/ground-truth-stixel-dataset",
-    "cover": "daimler-ag"
+    "website": "http://www.6d-vision.com/ground-truth-stixel-dataset"
   },
   {
-    "dataset": "TME Motorway",
-    "provider": ["Czech Technical Univ."],
-    "time": 2011,
-    "location": [
-      {"country": "it", "city": "Northern"}
-    ],
+    "annotation": ["Video"],
     "data": [
       {
-        "video": 28,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Video"
-    ],
-    "traffic": [
-      "highway"
-    ],
-    "diversity": [
-      "illumination"
-    ],
-    "website": "http://cmp.felk.cvut.cz/data/motorway/",
-    "cover": "czech-technical-u"
-  },
-  {
-    "dataset": "TuSimple",
-    "provider": ["TuSimple"],
-    "time": 2017,
-    "data": [
-      {
-        "video": 0,
-        "image": 13000,
-        "codes": null
-      }
-    ],
-    "annotation": [
-      "Bounding Box",
-      "Lane Marking",
-      "Video"
-    ],
-    "traffic": [
-      "highway"
-    ],
-    "diversity": [
-      "weather"
-    ],
-    "website": "https://github.com/TuSimple/tusimple-benchmark/wiki",
-    "cover": "tusimple"
-  },
-  {
-    "dataset": "UAH",
-    "provider": ["University of Alcala"],
-    "time": 2016,
-    "location": [
-      {"country": "es", "city": "Madrid"}
-    ],
-    "data": [
-      {
-        "video": 35,
+        "codes": null,
         "gps": null,
         "vehicle-data": 0,
-        "codes": null
+        "video": 0
       }
     ],
-    "annotation": [
-      "Behavioral Label",
-      "Video"
+    "dataset": "DAVIS",
+    "diversity": ["night"],
+    "id": "davis-univ-of-zurich-eth-zurich",
+    "location": [
+      {
+        "country": "ch"
+      },
+      {
+        "country": "de"
+      }
     ],
-    "traffic": [
-      "highway"
-    ],
-    "website": "http://www.robesafe.uah.es/personal/eduardo.romera/uah-driveset/",
-    "cover": "alcala-u"
+    "provider": ["ETH Zurich", "Univ. of Zurich"],
+    "time": 2018,
+    "traffic": ["highway"],
+    "website": "https://docs.google.com/document/d/1HM0CSmjO8nOpUeTvmPjopcBcVCk7KXvLUuiZFS6TWSg/pub"
   },
   {
-    "dataset": "Udacity",
-    "provider": ["Udacity"],
-    "time": 2016,
-    "location": [
-      {"country": "us", "city": "Mountain View"}
-    ],
+    "annotation": ["Video"],
     "data": [
       {
-        "video": 0,
+        "gps": null,
         "lidar": 0,
-        "gps": null,
-        "vehicle-data": 0,
-        "codes": null
+        "video": 16000
       }
     ],
-    "annotation": [
-      "Bounding Box",
-      "Lidar",
-      "Video"
+    "dataset": "CMU",
+    "diversity": ["illumination", "season", "weather"],
+    "id": "cmu-carnegie-mellon-university",
+    "location": [
+      {
+        "city": "Pittsburgh",
+        "country": "us"
+      }
     ],
-    "traffic": [
-      "urban"
+    "provider": ["Carnegie Mellon University"],
+    "time": 2011,
+    "traffic": ["urban"],
+    "website": "http://3dvis.ri.cmu.edu/data-sets/localization/"
+  },
+  {
+    "annotation": ["Video"],
+    "data": [
+      {
+        "video": 11
+      }
     ],
-    "diversity": [
-      "illumination"
+    "dataset": "Challenging Stereo",
+    "diversity": ["illumination", "night", "weather"],
+    "id": "challenging-stereo-hci-heidelberg-bosch-corporation-research",
+    "location": [
+      {
+        "city": "Hildesheim",
+        "country": "de"
+      }
     ],
-    "website": "https://github.com/udacity/self-driving-car",
-    "cover": "udacity"
+    "provider": ["Bosch Corporation Research", "HCI(Heidelberg)"],
+    "time": 2012,
+    "traffic": ["urban"],
+    "website": "https://hci.iwr.uni-heidelberg.de/benchmarks/Challenging_Data_for_Stereo_and_Optical_Flow"
   }
 ]

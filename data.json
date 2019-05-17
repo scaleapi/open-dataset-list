@@ -3,8 +3,8 @@
     "annotation": ["Behavioral Label", "Bounding Box", "Lidar", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "image": 40000,
         "lidar": 0,
         "video": 1000
@@ -54,8 +54,8 @@
     "annotation": ["Behavioral Label", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "vehicle-data": 0,
         "video": 35
       }
@@ -77,8 +77,8 @@
     "annotation": ["Behavioral Label", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "vehicle-data": 0,
         "video": 700000
       }
@@ -100,7 +100,7 @@
     "annotation": ["Behavioral Label", "Video"],
     "data": [
       {
-        "lidar": null,
+        "lidar": 0,
         "video": 0
       }
     ],
@@ -172,9 +172,9 @@
     "annotation": ["Bounding Box", "Lane Marking", "Lidar", "Semantic Label", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
-        "image": null,
+        "codes": 0,
+        "gps": 0,
+        "image": 0,
         "lidar": 0,
         "video": 0
       }
@@ -197,9 +197,9 @@
     "annotation": ["Bounding Box", "Lane Marking", "Semantic Label", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
-        "image": null,
+        "codes": 0,
+        "gps": 0,
+        "image": 0,
         "video": 0
       }
     ],
@@ -226,7 +226,7 @@
     "annotation": ["Bounding Box", "Lane Marking", "Video"],
     "data": [
       {
-        "codes": null,
+        "codes": 0,
         "image": 13000,
         "video": 0
       }
@@ -243,10 +243,10 @@
     "annotation": ["Bounding Box", "Lidar", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "lidar": 0,
-        "thermal": null,
+        "thermal": 0,
         "video": 10
       }
     ],
@@ -267,8 +267,8 @@
     "annotation": ["Bounding Box", "Lidar", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "lidar": 0,
         "vehicle-data": 0,
         "video": 0
@@ -312,7 +312,7 @@
     "annotation": ["Bounding Box", "Semantic Label", "Video"],
     "data": [
       {
-        "image": null,
+        "image": 0,
         "video": 0
       }
     ],
@@ -333,7 +333,7 @@
     "annotation": ["Bounding Box", "Video"],
     "data": [
       {
-        "codes": null,
+        "codes": 0,
         "video": 0
       }
     ],
@@ -355,7 +355,7 @@
     "annotation": ["Bounding Box", "Video"],
     "data": [
       {
-        "codes": null,
+        "codes": 0,
         "video": 28
       }
     ],
@@ -377,7 +377,7 @@
     "annotation": ["Bounding Box", "Video"],
     "data": [
       {
-        "infrared": null,
+        "infrared": 0,
         "video": 0
       }
     ],
@@ -480,7 +480,7 @@
     "annotation": ["Bounding Box"],
     "data": [
       {
-        "codes": null,
+        "codes": 0,
         "image": 55000
       }
     ],
@@ -502,7 +502,7 @@
     "annotation": ["Bounding Box"],
     "data": [
       {
-        "codes": null,
+        "codes": 0,
         "image": 6600
       }
     ],
@@ -521,7 +521,7 @@
     "annotation": ["Bounding Box"],
     "data": [
       {
-        "codes": null,
+        "codes": 0,
         "image": 9000
       }
     ],
@@ -580,7 +580,7 @@
     "annotation": ["Lane Marking"],
     "data": [
       {
-        "codes": null,
+        "codes": 0,
         "image": 133000
       }
     ],
@@ -602,8 +602,8 @@
     "annotation": ["Lidar", "Stixel"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "lidar": 0
       }
     ],
@@ -624,8 +624,8 @@
     "annotation": ["Lidar", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "lidar": 0,
         "vehicle-data": 0,
         "video": 0
@@ -649,8 +649,8 @@
     "annotation": ["Lidar", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "lidar": 0,
         "vehicle-data": 0,
         "video": 130
@@ -674,8 +674,8 @@
     "annotation": ["Lidar", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "lidar": 0,
         "video": 0
       }
@@ -697,8 +697,8 @@
     "annotation": ["Lidar", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "lidar": 0,
         "video": 15
       }
@@ -720,8 +720,8 @@
     "annotation": ["Lidar", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "lidar": 0,
         "video": 19
       }
@@ -786,9 +786,9 @@
     "annotation": ["Semantic Label", "Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
-        "image": null,
+        "codes": 0,
+        "gps": 0,
+        "image": 0,
         "vehicle-data": 0,
         "video": 0
       }
@@ -817,8 +817,8 @@
     "annotation": ["Semantic Label", "Video"],
     "data": [
       {
-        "codes": null,
-        "image": null,
+        "codes": 0,
+        "image": 0,
         "video": 0
       }
     ],
@@ -904,8 +904,8 @@
     "annotation": ["Video"],
     "data": [
       {
-        "codes": null,
-        "gps": null,
+        "codes": 0,
+        "gps": 0,
         "vehicle-data": 0,
         "video": 0
       }
@@ -930,7 +930,7 @@
     "annotation": ["Video"],
     "data": [
       {
-        "gps": null,
+        "gps": 0,
         "lidar": 0,
         "video": 16000
       }

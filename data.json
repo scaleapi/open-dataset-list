@@ -703,15 +703,15 @@
         "video": 15
       }
     ],
-    "dataset": "Malaga",
+    "dataset": "Málaga",
     "id": "malaga-univ-of-malaga",
     "location": [
       {
-        "city": "Malaga",
+        "city": "Málaga",
         "country": "es"
       }
     ],
-    "provider": ["Univ. of Malaga"],
+    "provider": ["Univ. of Málaga"],
     "time": 2018,
     "traffic": ["urban"],
     "website": "https://www.mrpt.org/MalagaUrbanDataset"
